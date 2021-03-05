@@ -1,8 +1,8 @@
-# Starter kit template
+# Call for Code 2021: Zero Hunger Starter Kit
 
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack) [![Website](https://img.shields.io/badge/View-Website-blue)](https://code-and-response.github.io/Project-Sample/)
+[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack)
 
-A template for Call for Code starter kits which help understand a real-world challenge under the Climate Change theme in 2021. These templates can be used to capture the output of the Design Thinking workshop in February and demonstrate a potential technology solution for that problem.
+The Zero Hunger Call for Code starter kit helps you understand the real-world challenge of global hunger under the Climate Change theme in 2021. This starter kit is an example of a potential technology solution for the problem of global hunger.
 
 ## Contents
 
