@@ -20,15 +20,18 @@ A template for Call for Code starter kits which help understand a real-world cha
 
 ### What's the problem?
 
-Part of the World Health Organization's guidance on limiting further spread of COVID-19 is to practice social distancing. As a result, schools in most affected areas are taking precautionary measures by closing their facilities. With school-aged children at home for an indeterminate amount of time,  keeping them engaged, entertained, and on top of their education is important.
+8.9% of the global population is suffering from hunger. The UN Sustainable Development Goal #2 of Zero Hunger sets ambitious targets to profoundly change the global food and agriculture system and give more people a regular access to safe, nutritious, and sufficient food to reach zero hunger by 2030. 
+
+Much of the world’s food is grown by small scale independent farms and distributed through local community co-operatives who sell the surplus produce. The co-ops are a central point for quality control, deliveries and enabling food commodity markets. These co-ops face a myriad of logistical challenges to get the right food, to the right places, with minimal time and cost. 
 
 ### How can technology help?
 
-Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well.
+By bringing the paper ledgers of food co-ops online, the communities can harness data insights from their environment for better crop resilience and overall yield for sustainable food production systems at the grassroots. More crops mean better access to food for the community.
+Rural farmers may not have the access to network connectivity, digital literacy, language or appetite for risk to adopt tech solutions directly, so the co-ops become the pivotal point of innovation. 
 
 ### The idea
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+Co-operative systems can be digitised and enhanced to improve access to nutritious food in local communities (especially those suffering from acute hunger). By aggregating and analysing market, transport, demand, horticultural and environmental data they can optimise productivity, reduce overheads and decrease volatility in the supply chain of these farming communities that can address the global hunger crisis. 
 
 ## Demo video
 
