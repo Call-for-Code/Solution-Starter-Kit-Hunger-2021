@@ -6,11 +6,11 @@ The Zero Hunger Call for Code starter kit helps you understand the real-world ch
 
 ## Contents
 
-1. [Short description](#short-description)
-1. [Demo video](#demo-video)
-1. [The architecture](#the-architecture)
-1. [Getting started](#getting-started)
-1. [Contributing](#contributing)
+1. [Background](#background)
+1. [Demo video - TBD](#demo-video)
+1. [The architecture - TBD](#the-architecture)
+1. [Getting started - TBD](#getting-started)
+1. [Contributing - TBD](#contributing)
 1. [Versioning](#versioning)
 1. [Authors](#authors)
 1. [License](#license)
@@ -33,7 +33,7 @@ Rural farmers may not have the access to network connectivity, digital literacy,
 
 Co-operative systems can be digitised and enhanced to improve access to nutritious food in local communities (especially those suffering from acute hunger). By aggregating and analysing market, transport, demand, horticultural and environmental data they can optimise productivity, reduce overheads and decrease volatility in the supply chain of these farming communities that can address the global hunger crisis. 
 
-## Demo video
+## Demo video - TBD
 
 [![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
@@ -100,13 +100,15 @@ These are the go-to documents for measuring impact and progress against the key 
 * [Link 2](https://developer.ibm.com/callforcode/technical-library/)
 * [Link 3](https://developer.ibm.com/callforcode/technical-library/)
 
-## Contributing
+## Contributing - TBD
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Michelle Howie** - *Problem Statement & Description* - [Twitter](https://twitter.com/michelle2minhye)
+* **Jenna Ritten** - *Architectural Diagram* - [Twitter](https://twitter.com/jritten)
+* **David Nugent** - *Outline & Resources* - [Twitter](https://twitter.com/drnugent)
 
 See also the list of [contributors](https://github.com/Call-for-Code/Starter-Kit-Template-2021/graphs/contributors) who participated in the creation of this starter kit.
 
@@ -116,4 +118,4 @@ This starter kit is licensed under the Apache 2 License - see the [LICENSE](LICE
 
 ## Acknowledgments
 
-* Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+* Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). Thank you Billie!
