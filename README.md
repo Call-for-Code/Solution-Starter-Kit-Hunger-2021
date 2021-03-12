@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack)
 
-The Zero Hunger Call for Code starter kit helps you understand the real-world challenge of global hunger under the Climate Change theme in 2021. This starter kit is an example of a potential technology solution for the problem of global hunger.
+The Zero Hunger Call for Code starter kit helps developers build applications to addresss the real-world challenge of global hunger under the Climate Change theme in 2021. This starter kit will give you the tools to connect farmers, cooperatives and consumers through a potential technology solution for the problem of global hunger.
 
 ## Contents
 
@@ -37,7 +37,7 @@ Co-operative systems can be digitised and enhanced to improve access to nutritio
 
 [![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
-## The architecture
+## The architecture - TBD
 
 ![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
 
@@ -48,7 +48,23 @@ Co-operative systems can be digitised and enhanced to improve access to nutritio
 
 ## Getting started
 
-You can create a solution based on the proposed solution architecture above by exploring the following resources on the [IBM Developer](https://developer.ibm.com/) site.
+You can create a solution based on the proposed solution architecture above by exploring the following resources on the [IBM Developer](https://developer.ibm.com/) site. I'm 
+
+### Example Solutions
+
+Here are some ideas for solutions that this starter kit can help you build:
+
+#### Hill 1
+
+#### Hill 2
+
+#### Hill 3
+
+#### Hill 4
+
+#### Hill 5
+
+### Tutorial - TBD
 
 ### Resources
 
