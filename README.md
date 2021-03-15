@@ -37,7 +37,7 @@ Co-operative systems can be digitised and enhanced to improve access to nutritio
 
 [![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
-## The architecture - TBD
+## The architecture
 
 ![Co-operative Control Center](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/architecture_diagram.png)
 
@@ -63,15 +63,17 @@ You can create a solution based on the proposed solution architecture above by e
 
 Here are some ideas for solutions that this starter kit can help you build:
 
-#### Hill 1
+#### A cooperative can aggregate data from farmers via phone cameras and sms to analyze the data in order to optimize productivity by 30% through knowledge sharing.
 
-#### Hill 2
+#### A cooperative can manage farmers’ accounts, including credits, to facilitate trade and distribution of funds in order to create transparency among transactions and reducing overhead and labor by ~40%.
 
-#### Hill 3
+#### A cooperative leader can find nearby markets to sell their products for the optimal price to maximize profit by ~20–40%.
 
-#### Hill 4
+#### A cooperative can connect with other cooperatives to optimize refueling routes and trips to lower transport costs by ~50%.
 
-#### Hill 5
+#### A cooperative can use weather and trend data to provide farmers with personalized plans regarding when to plant, fertilize, and irrigate to increase the farmer’s yield by ~25%.
+
+#### A cooperative can provide recommendations on the best crops to grow based on their market, geographic, and environmental patterns to decrease exposure to income loss and volatility by ~30%.
 
 ### Tutorial - TBD
 
