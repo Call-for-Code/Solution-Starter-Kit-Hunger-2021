@@ -63,7 +63,7 @@ You can create a solution based on the proposed solution architecture above by e
 
 Here are some ideas for solutions that this starter kit can help you build:
 
-#### \textcolor{orange}{A cooperative} \textcolor{green}{can aggregate data from farmers via phone cameras and sms to analyze the data} \textcolor{red}{in order to optimize productivity by 30% through knowledge sharing.}
+#### A cooperative can aggregate data from farmers via phone cameras and sms to analyze the data in order to optimize productivity by 30% through knowledge sharing.
 
 #### A cooperative can manage farmers’ accounts, including credits, to facilitate trade and distribution of funds in order to create transparency among transactions and reducing overhead and labor by ~40%.
 
