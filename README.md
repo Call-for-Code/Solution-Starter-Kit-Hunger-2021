@@ -1,4 +1,4 @@
-# Call for Code solution starter kit: Zero hunger
+# Call for Code Solution Starter-Kit: Zero Hunger
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack)
 
@@ -7,16 +7,16 @@ The Zero Hunger Call for Code starter kit helps developers build applications to
 ## Contents
 
 1. [Background](#background)
-1. [Demo video - TBD](#demo-video)
-1. [The architecture](#the-architecture)
-1. [Getting started - TBD](#getting-started)
+1. [Demo Video - TBD](#demo-video)
+1. [The Architecture](#the-architecture)
+1. [Getting Started](#getting-started)
 1. [Contributing - TBD](#contributing)
 1. [Versioning](#versioning)
 1. [Authors](#authors)
 1. [License](#license)
 1. [Acknowledgments](#acknowledgments)
 
-## Short description
+## Short Description
 
 ### What's the problem?
 
@@ -29,17 +29,17 @@ Much of the world’s food is grown by small scale independent farms and distrib
 By bringing the paper ledgers of food co-ops online, the communities can harness data insights from their environment for better crop resilience and overall yield for sustainable food production systems at the grassroots. More crops mean better access to food for the community.
 Rural farmers may not have the access to network connectivity, digital literacy, language or appetite for risk to adopt tech solutions directly, so the co-ops become the pivotal point of innovation. 
 
-### The idea
+### The Idea
 
 Co-operative systems can be digitised and enhanced to improve access to nutritious food in local communities (especially those suffering from acute hunger). By aggregating and analysing market, transport, demand, horticultural and environmental data they can optimise productivity, reduce overheads and decrease volatility in the supply chain of these farming communities that can address the global hunger crisis. 
 
-## Demo video - TBD
+## Demo Video - TBD
 
 [![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
-## The architecture
+## The Architecture
 
-![Co-operative Control Center](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/architecture_diagram.png)
+![Digital Co-Operative Management System](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/architecture_diagram.png)
 
 1. User uses their non-smart phone camera to capture a photo of their product yield to send for quality testing and analysis.
 2. User sends a camera image and/or a text message through their non-smart phone messenger.
@@ -55,7 +55,7 @@ Co-operative systems can be digitised and enhanced to improve access to nutritio
 12. (Optional: Twilio forwards this message as a reply through their messenger)
 13. (Optional: The user will receive this as a response from Watson Machine Learning service on their phone's messenger)
 
-## Getting started
+## Getting Started
 
 You can create a solution based on the proposed solution architecture above by exploring the following resources on the [IBM Developer](https://developer.ibm.com/) site. I'm 
 
@@ -79,15 +79,27 @@ Here are some ideas for solutions that this starter kit can help you build:
 
 ### Resources
 
-#### Artificial intelligence
+#### Node-RED
+
+Node-RED
+
+* [Create a Node-RED Starter Application](https://developer.ibm.com/tutorials/how-to-create-a-node-red-starter-application/)
+* [Build a Secure Microservices-Based Banking App](https://developer.ibm.com/components/node-red/patterns/build-a-secure-microservices-based-application-with-transactional-flows/)
+* [Develop an IoT App with Node-RED & Watson](https://developer.ibm.com/callforcode/technical-library/)
+* [Build a Node-RED COVID-19 Dashboard](https://developer.ibm.com/tutorials/build-a-node-red-covid-19-dashboard-using-twc-disease-tracker-api/)
+* [Build an Earthquake Early Warning (EEW) System & Visualize Historical Seismic Datasets](https://developer.ibm.com/tutorials/build-an-openeew-earthquake-early-warning-node-red-dashboard/)
+* [Build a Blockchain Network for Trusted IoT](https://developer.ibm.com/components/node-red/patterns/build-a-blockchain-network-for-trusted-iot/)
+
+#### Artificial Intelligence
 
 Use AI to create apps that accelerate, enhance, and scale the human experience.
 
-* [Link 1](https://developer.ibm.com/callforcode/technical-library/)
-* [Link 2](https://developer.ibm.com/callforcode/technical-library/)
-* [Link 3](https://developer.ibm.com/callforcode/technical-library/)
+* [Build a Framework that Connects WhatsApp to Watson Services](https://developer.ibm.com/patterns/build-a-framework-that-connects-whatsapp-to-any-watson-service-on-ibm-cloud/)
+* [Create a Web Application to Optimize your Supply Chain Inventory](https://developer.ibm.com/technologies/artificial-intelligence/patterns/leverage-decision-optimization-models-in-procurement-app-for-store-managers/)
+* [Online order processing during pandemics](https://developer.ibm.com/technologies/artificial-intelligence/patterns/online-order-processing-system-during-pandemic/)
+* [Build an Image Classification Model](https://developer.ibm.com/technologies/artificial-intelligence/patterns/build-an-american-sign-language-alphabet-classifier-using-pytorch-and-gpu-environments-on-watson-studio/)
 
-#### Data science
+#### Data Science
 
 Analyze structured and unstructured data to extract knowledge and insights related to urgent issues.
 
@@ -99,19 +111,24 @@ Analyze structured and unstructured data to extract knowledge and insights relat
 
 Collect and analyze device sensor data to take corrective or preventative action automatically.
 
-* [Link 1](https://developer.ibm.com/callforcode/technical-library/)
-* [Link 2](https://developer.ibm.com/callforcode/technical-library/)
-* [Link 3](https://developer.ibm.com/callforcode/technical-library/)
+* [Build your First IoT Application with Twilio](https://developer.ibm.com/tutorials/iot-monitoring-app-node-red-bluemix-trs/)
+* [Build a Cognitive IoT App in 7 Steps](https://developer.ibm.com/tutorials/iot-cognitive-iot-app-machine-learning/)
+* [Create an Internet of Things Platform Starter Application](https://developer.ibm.com/tutorials/how-to-create-an-internet-of-things-platform-starter-application/)
+* [Turn your Smartphone into an IoT Device](https://developer.ibm.com/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/)
+* [Watson on Node-RED](https://developer.ibm.com/open/projects/watson-on-node-red/)
+* [Applying AI & Edge Prediction to IoT Data](https://developer.ibm.com/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/)
+* [Analyze Industrial Equipment for Defects](https://developer.ibm.com/patterns/analyze-industrial-equipment-defects/)
 
-#### Platform development
+#### API Integration Documentation
 
-Identify the right environment, software, and runtime to power and scale your solution.
+Access the technical documentation for API integrations.
 
-* [Link 1](https://developer.ibm.com/callforcode/technical-library/)
-* [Link 2](https://developer.ibm.com/callforcode/technical-library/)
-* [Link 3](https://developer.ibm.com/callforcode/technical-library/)
+* [Telstra MMS Messaging API](https://dev.telstra.com/content/messaging-api)
+* [Twilio MMS Messaging API](https://www.twilio.com/mms)
+* [IBM Cloud Pak for Data Platform API](https://cloud.ibm.com/apidocs/cloud-pak-data)
+* [Cloud Pak for Data APIs and SDKs](https://www.ibm.com/support/producthub/icpdata/apis)
 
-#### Data sets
+#### Data Sets
 
 These public data sets provide information on the problem.
 
@@ -119,11 +136,11 @@ These public data sets provide information on the problem.
 * [Link 2](https://developer.ibm.com/callforcode/technical-library/)
 * [Link 3](https://developer.ibm.com/callforcode/technical-library/)
 
-#### NGO documents
+#### NGO Documents
 
 These are the go-to documents for measuring impact and progress against the key issue.
 
-* [Link 1](https://developer.ibm.com/callforcode/technical-library/)
+* [Landscaping the Agritech Ecosystem for Smallholder Farmers in Latin America and the Caribbean](https://www.gsma.com/mobilefordevelopment/resources/landscaping-the-agritech-ecosystem-for-smallholder-farmers-in-latin-america-and-the-caribbean/)
 * [Link 2](https://developer.ibm.com/callforcode/technical-library/)
 * [Link 3](https://developer.ibm.com/callforcode/technical-library/)
 
