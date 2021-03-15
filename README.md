@@ -1,4 +1,4 @@
-# Call for Code 2021: Zero Hunger Starter Kit
+# Call for Code solution starter kit:: Zero hunger
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack)
 
