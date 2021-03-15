@@ -8,7 +8,7 @@ The Zero Hunger Call for Code starter kit helps developers build applications to
 
 1. [Background](#background)
 1. [Demo video - TBD](#demo-video)
-1. [The architecture - TBD](#the-architecture)
+1. [The architecture](#the-architecture)
 1. [Getting started - TBD](#getting-started)
 1. [Contributing - TBD](#contributing)
 1. [Versioning](#versioning)
@@ -49,9 +49,9 @@ Co-operative systems can be digitised and enhanced to improve access to nutritio
 6. Cloud Object Storage is provisioned to receive the images and/or message data.
 7. The image and/or message data is added to the available Cloud Object Storage.
 8. Watson Machine Learning does the necessary computations and returns a response.
-9. The Node-RED app processes the response and converts it to user-readable format and forwards to the Co-operative control center dashboard. (Optional: to Twilio)
-10. The response is then sent to the control center dashboard UI.
-11. The Co-operative admin is able to view the response, assess the quality of the product yield, accept & manage purchase orders, and manage client credits for payment via the control center dashboard.
+9. The Node-RED app processes the response and converts it to user-readable format and forwards to the digital co-operative management system app UI. (Optional: to Twilio or Telstra)
+10. The response is then sent to the digital co-operative management system UI.
+11. The Co-operative admin is able to view the response, assess the quality of the product yield, accept & manage purchase orders, and manage client credits for payment via the digital co-operative management system UI.
 12. (Optional: Twilio forwards this message as a reply through their messenger)
 13. (Optional: The user will receive this as a response from Watson Machine Learning service on their phone's messenger)
 
@@ -63,7 +63,7 @@ You can create a solution based on the proposed solution architecture above by e
 
 Here are some ideas for solutions that this starter kit can help you build:
 
-#### A cooperative can aggregate data from farmers via phone cameras and sms to analyze the data in order to optimize productivity by 30% through knowledge sharing.
+#### \textcolor{orange}{A cooperative} \textcolor{green}{can aggregate data from farmers via phone cameras and sms to analyze the data} \textcolor{red}{in order to optimize productivity by 30% through knowledge sharing.}
 
 #### A cooperative can manage farmers’ accounts, including credits, to facilitate trade and distribution of funds in order to create transparency among transactions and reducing overhead and labor by ~40%.
 
