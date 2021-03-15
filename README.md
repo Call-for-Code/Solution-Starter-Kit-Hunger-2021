@@ -39,12 +39,21 @@ Co-operative systems can be digitised and enhanced to improve access to nutritio
 
 ## The architecture - TBD
 
-![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![Co-operative Control Center](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/architecture_diagram.png)
 
-1. The user navigates to the site and uploads a video file. [Learn how to build apps on the IBM Cloud](#platform-development).
-2. Watson Speech to Text processes the audio and extracts the text. [Learn about IBM artificial intelligence](#artificial-intelligence).
-3. Watson Translation (optionally) can translate the text to the desired language. [Learn about IBM artificial intelligence](#artificial-intelligence).
-4. The app stores the translated text as a document within Object Storage. [Learn about IBM data science](#data-science).
+1. User uses their non-smart phone camera to capture a photo of their product yield to send for quality testing and analysis.
+2. User sends a camera image and/or a text message through their non-smart phone messenger.
+3. The image and/or message is redirected to the Twilio Programmable Messaging service or to the Telstra Messaging service for users located in Australia.
+4. Twilio Programmable Messaging or Telstra Messaging will forward the message to the Node-RED app hosted on IBM Cloud.
+5. The Node-RED app interacts with Watson Machine Learning to get the response.
+6. Cloud Object Storage is provisioned to receive the images and/or message data.
+7. The image and/or message data is added to the available Cloud Object Storage.
+8. Watson Machine Learning does the necessary computations and returns a response.
+9. The Node-RED app processes the response and converts it to user-readable format and forwards to the Co-operative control center dashboard. (Optional: to Twilio)
+10. The response is then sent to the control center dashboard UI.
+11. The Co-operative admin is able to view the response, assess the quality of the product yield, accept & manage purchase orders, and manage client credits for payment via the control center dashboard.
+12. (Optional: Twilio forwards this message as a reply through their messenger)
+13. (Optional: The user will receive this as a response from Watson Machine Learning service on their phone's messenger)
 
 ## Getting started
 
@@ -123,7 +132,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 ## Authors
 
 * **Michelle Howie** - *Problem Statement & Description* - [Twitter](https://twitter.com/michelle2minhye)
-* **Jenna Ritten** - *Architectural Diagram* - [Twitter](https://twitter.com/jritten)
+* **Jenna Ritten** - *Architectural Diagram, Flow & Resources* - [Twitter](https://twitter.com/jritten)
 * **David Nugent** - *Outline & Resources* - [Twitter](https://twitter.com/drnugent)
 
 See also the list of [contributors](https://github.com/Call-for-Code/Starter-Kit-Template-2021/graphs/contributors) who participated in the creation of this starter kit.
