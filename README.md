@@ -90,8 +90,10 @@ Farmers use non-smartphones to communicate
 #### Additional solution ideas:
 
 * [Accounting & Credits](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-accounting--credits)
-* TBD
-* TBD
+* Weather Data
+* Optimize Trips
+* Choose Crops
+* Increase Prices
 
 ### Resources
 
