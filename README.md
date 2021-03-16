@@ -78,34 +78,78 @@ Each of these example solutions follows the Who/What/How format:
 ```
 
 
-#### Example solution: Accounting & Credits
+#### Solution idea: Accounting & Credits
 
-Farmers work with cooperatives to get credit for their goods.
+Farmers work with co-operatives to get credit for their goods.
 
 ```diff
-! A cooperative
+! A co-operative
 + can manage farmers’ accounts, including credits, to facilitate trade and distribution of funds in order 
 - to create transparency among transactions and reducing overhead and labor
 ```
 
-Technologies needed:
-* Real-time messaging between farmers and cooperatives
-* Real-time price & market data
-* Distributed ledger
+In order to implement this solution, you can use the SMS gateway integration provided by the starter kit to provide real-time messaging between farmers and cooperatives. As a stretch goal, you may find and aggregate real-time price & market data, and optionally integrate a distributed ledger, such as blockchain, to track transactions.
 
-#### Solution Idea: Image Sharing
+#### Solution idea: Image Sharing
 
 Farmers use non-smartphones to communicate
 
 ```diff
-! A cooperative
+! A co-operative
 + can aggregate data from farmers via phone cameras and sms to analyze the data 
 - in order to optimize productivity by 30% through knowledge sharing.
 ```
 
-Technologies needed:
-* TBD
-* TBD
+Technologies needed TBD
+
+#### Solution idea: Weather Data
+
+TBD TBD
+
+```diff
+! A co-operative
++ can aggregate data from farmers via phone cameras and sms to analyze the data 
+- in order to optimize productivity by 30% through knowledge sharing.
+```
+
+Technologies needed TBD
+
+#### Solution idea: Optimize Trips
+
+TBD TBD
+
+```diff
+! A co-operative
++ can aggregate data from farmers via phone cameras and sms to analyze the data 
+- in order to optimize productivity by 30% through knowledge sharing.
+```
+
+Technologies needed TBD
+
+#### Solution idea: Choose Crops
+
+TBD TBD
+
+```diff
+! A co-operative
++ can aggregate data from farmers via phone cameras and sms to analyze the data 
+- in order to optimize productivity by 30% through knowledge sharing.
+```
+
+Technologies needed TBD
+
+#### Solution idea: Increase Prices
+
+TBD TBD
+
+```diff
+! A co-operative
++ can aggregate data from farmers via phone cameras and sms to analyze the data 
+- in order to optimize productivity by 30% through knowledge sharing.
+```
+
+Technologies needed TBD
+
 
 Create transparency and reduce overhead
 
