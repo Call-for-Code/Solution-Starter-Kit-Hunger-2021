@@ -73,7 +73,7 @@ Each of these example solutions follows the Who/What/How format:
 ```diff
 ! Who
 + Can do What
-- How
+- To achieve this result ("wow!")
 ```
 
 
@@ -81,9 +81,12 @@ Each of these example solutions follows the Who/What/How format:
 
 ```diff
 ! A cooperative
-+ can optimize productivity through knowledge sharing
-- by aggregating data from farmers through phone cameras and SMS to analyze the data
++ can manage farmers’ accounts, including credits, to facilitate trade and distribution of funds in order 
+- to create transparency among transactions and reducing overhead and labor
 ```
+
+Technologies needed:
+* 
 
 #### Idea 2
 
