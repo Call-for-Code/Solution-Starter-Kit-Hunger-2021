@@ -34,6 +34,36 @@ IBM provides various technologies such as IoT, Watson, and blockchain. [IBM Food
 
 To improve access to nutritious food in local communities (especially those suffering from acute hunger), co-operative systems can be digitized and enhanced. By aggregating and analyzing market, transportation, demand, horticultural, and environmental data the co-ops can optimize productivity, reduce overhead, and decrease volatility in the supply chain of the farming communities. 
 
+## Video
+
+[![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+
+## The architecture
+
+![Digital Co-Operative Management System](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/architecture_diagram.png)
+
+1. The user uses their non-smart phone camera to capture a photo of their product yield to send for quality testing and analysis.
+1. The user sends a camera image or a text message through their non-smart phone messenger.
+1. The image or message is redirected to the Twilio Programmable Messaging service or to the Telstra Messaging service for users located in Australia.
+1. Twilio MMS Messaging or Telstra MMS Messaging forwards the message to the Node-RED app hosted on IBM Cloud.
+1. The Node-RED app interacts with IBM Cloud Pak for Data AI/ML service to get the response.
+1. IBM Cloud Object Storage is provisioned to receive the images or message data.
+1. The image or message data is added to the available IBM Cloud Object Storage.
+1. The IBM Cloud Pak for Data AI/ML service runs the necessary computations and returns a response.
+1. The Node-RED app processes the response, converts it to a user-readable format, and forwards it to the digital co-operative management system app UI (Optional: to Twilio or Telstra).
+1. The response is sent to the digital co-operative management system UI.
+1. The co-op administrator is able to view the response through the digital co-operative management system UI.
+1. Twilio or Telstra forwards the response message as a reply to the user through their messaging apis. (Optional)
+1. The user receives this as a response from the IBM Cloud Pak for Data AI/ML service on their phone's messenger. (Optional)
+
+## Getting started
+
+You can create a solution based on the proposed solution architecture by exploring the following resources on [IBM Developer](https://developer.ibm.com/).
+
+### Tutorial & Walkthrough
+
+TBD
+
 ### Solution ideas
 
 This section provides several examples that you and your team can use to jump-start your solution ideas. The following ideas are examples only, so feel free to brainstorm with your team to create your own original ideas and solutions. For example, the 2020 Call for Code Grand Prize winner, [Agrolly](https://developer.ibm.com/blogs/agrolly/) created a solution that uses IBM Cloud Object Storage, IBM Watson Studio, IBM Watson Assistant, and The Weather Company technologies to execute climate risk assessments, which allows farmers with less resources available to them to still make more educated decisions, obtain the necessary financing, and improve their economic outcome.
@@ -85,32 +115,6 @@ Decrease exposure to income loss and volatility
 | Who | What | How |
 | -- | -- | -- |
 | A cooperative  | can decrease exposure to income loss and volatility | by providing recommendations to farmers on the best crops to grow based on market, geographic, and environmental patterns |
-
-## Video
-
-[![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
-
-## The architecture
-
-![Digital Co-Operative Management System](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/architecture_diagram.png)
-
-1. The user uses their non-smart phone camera to capture a photo of their product yield to send for quality testing and analysis.
-1. The user sends a camera image or a text message through their non-smart phone messenger.
-1. The image or message is redirected to the Twilio Programmable Messaging service or to the Telstra Messaging service for users located in Australia.
-1. Twilio MMS Messaging or Telstra MMS Messaging forwards the message to the Node-RED app hosted on IBM Cloud.
-1. The Node-RED app interacts with IBM Cloud Pak for Data AI/ML service to get the response.
-1. IBM Cloud Object Storage is provisioned to receive the images or message data.
-1. The image or message data is added to the available IBM Cloud Object Storage.
-1. The IBM Cloud Pak for Data AI/ML service runs the necessary computations and returns a response.
-1. The Node-RED app processes the response, converts it to a user-readable format, and forwards it to the digital co-operative management system app UI (Optional: to Twilio or Telstra).
-1. The response is sent to the digital co-operative management system UI.
-1. The co-op administrator is able to view the response through the digital co-operative management system UI.
-1. Twilio or Telstra forwards the response message as a reply to the user through their messaging apis. (Optional)
-1. The user receives this as a response from the IBM Cloud Pak for Data AI/ML service on their phone's messenger. (Optional)
-
-## Getting started
-
-You can create a solution based on the proposed solution architecture by exploring the following resources on [IBM Developer](https://developer.ibm.com/).
 
 ### Resources
 
