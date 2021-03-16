@@ -1,3 +1,7 @@
+# Solution Ideas
+
+This is a list of potential solutions that teams can use the Zero Hunger starter kit to implement. Please feel free to use these ideas, or develop an idea of your own.
+
 ## Solution idea: Image Sharing
 
 Farmers use non-smartphones to communicate
