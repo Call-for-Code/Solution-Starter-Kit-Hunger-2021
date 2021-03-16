@@ -1,4 +1,4 @@
-# Call for Code Solution Starter-Kit: Zero Hunger
+# Call for Code Solution Starter-Kit: Zero hunger
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack)
 
@@ -8,15 +8,15 @@ According to the [UN Hunger Report](http://www.fao.org/publications/sofi/en/), h
 
 1. [Background](#background)
 1. [Video](#video)
-1. [The Architecture](#the-architecture)
-1. [Getting Started](#getting-started)
+1. [The architecture](#the-architecture)
+1. [Getting started](#getting-started)
 1. [Contributing](#contributing)
 1. [Versioning](#versioning)
 1. [Authors](#authors)
 1. [License](#license)
 1. [Acknowledgments](#acknowledgments)
 
-## Short Description
+## Short description
 
 This starter kit can help you begin your Call for Code solution. The starter kit pulls together resources to help you and your team use technology to create applications to tackle hunger issues around the world.
 
@@ -30,11 +30,11 @@ Technology can help in many ways. For example, by bringing the paper ledgers of 
 
 IBM provides various technologies such as IoT, Watson, and blockchain. [IBM Food Trust](https://www.ibm.com/blockchain/solutions/food-trust) is a blockchain innovation that helps the ecosystem of producers, suppliers, manufacturers, retailers, and others to create a smarter, safer, more sustainable food system for all.
 
-### The Idea
+### The idea
 
 To improve access to nutritious food in local communities (especially those suffering from acute hunger), co-operative systems can be digitized and enhanced. By aggregating and analyzing market, transportation, demand, horticultural, and environmental data the co-ops can optimize productivity, reduce overhead, and decrease volatility in the supply chain of the farming communities. 
 
-### Solution Ideas
+### Solution ideas
 
 This section provides several examples that you and your team can use to jump-start your solution ideas. The following ideas are examples only, so feel free to brainstorm with your team to create your own original ideas and solutions. For example, the 2020 Call for Code Grand Prize winner, [Agrolly](https://developer.ibm.com/blogs/agrolly/) created a solution that uses IBM Cloud Object Storage, IBM Watson Studio, IBM Watson Assistant, and The Weather Company technologies to execute climate risk assessments, which allows farmers with less resources available to them to still make more educated decisions, obtain the necessary financing, and improve their economic outcome.
 
@@ -90,27 +90,25 @@ Decrease exposure to income loss and volatility
 
 [![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
-## The Architecture
+## The architecture
 
 ![Digital Co-Operative Management System](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/architecture_diagram.png)
 
-## Flow
+1. The user uses their non-smart phone camera to capture a photo of their product yield to send for quality testing and analysis.
+1. The user sends a camera image or a text message through their non-smart phone messenger.
+1. The image or message is redirected to the Twilio Programmable Messaging service or to the Telstra Messaging service for users located in Australia.
+1. Twilio MMS Messaging or Telstra MMS Messaging forwards the message to the Node-RED app hosted on IBM Cloud.
+1. The Node-RED app interacts with IBM Cloud Pak for Data as a Service AI and machine learning services to get the response.
+1. IBM Cloud Object Storage is provisioned to receive the images or message data.
+1. The image or message data is added to the available IBM Cloud Object Storage.
+1. The IBM Cloud Pak for Data as a Service AI and machine learning services run the necessary computations and return a response.
+1. The Node-RED app processes the response, converts it to a user-readable format, and forwards it to the digital co-operative management system app UI (Optional: to Twilio or Telstra).
+1. The response is sent to the digital co-operative management system UI.
+1. The co-op administrator is able to view the response through the digital co-operative management system UI.
+1. Twilio or Telstra forwards the response message as a reply to the user through their messaging apis. (Optional)
+1. The user receives this as a response from the IBM Cloud Pak for Data as a Service AI and machine learning services on their phone's messenger. (Optional)
 
-1. User uses their non-smartphone camera to capture a photo of their product yield to send for quality testing and analysis.
-2. User sends a camera image and/or a text message through their non-smartphone messenger.
-3. The image and/or message is redirected to the Twilio MMS Messaging service or to the Telstra MMS Messaging service for users located in Australia.
-4. Twilio MMS Messaging or Telstra MMS Messaging will forward the message to the Node-RED app hosted on IBM Cloud.
-5. The Node-RED app interacts with IBM Cloud Pak for Data AI/ML service to get the response.
-6. Cloud Object Storage is provisioned to receive the images and/or message data.
-7. The image and/or message data is added to the available Cloud Object Storage.
-8. IBM Cloud Pak for Data AI/ML service does the necessary computations and returns a response.
-9. The Node-RED app processes the response and converts it to user-readable format and forwards to the digital co-operative management system app UI. (Optional: to Twilio or Telstra)
-10. The response is then sent to the digital co-operative management system UI.
-11. The Co-op Admin is able to view the response via the digital co-operative management system UI.
-12. (Optional: Twilio or Telstra forwards the response message as a reply to the User through their messaging apis)
-13. (Optional: The user will receive this as a response from IBM Cloud Pak for Data AI/ML service on their phone's messenger)
-
-## Getting Started
+## Getting started
 
 You can create a solution based on the proposed solution architecture by exploring the following resources on [IBM Developer](https://developer.ibm.com/).
 
@@ -120,7 +118,7 @@ Use the following resources to help you identify a topic and create your own sol
 
 #### Tutorials
 
-* [Combating global hunger with the Node-RED starter-kit](need link)
+* [Combating global hunger with the Node-RED starter kit](need link)
 * [Create serverless functions to send push notifications](https://developer.ibm.com/patterns/serverless-functions-push-notifications/)
 
 #### Node-RED
@@ -129,9 +127,9 @@ Use the following resources to help you identify a topic and create your own sol
 * [Build a secure microservices-based banking application](https://developer.ibm.com/components/node-red/patterns/build-a-secure-microservices-based-application-with-transactional-flows/)
 * [Build a Node-RED COVID-19 dashboard](https://developer.ibm.com/tutorials/build-a-node-red-covid-19-dashboard-using-twc-disease-tracker-api/)
 * [Build an Earthquake Early Warning (EEW) system and visualize historical seismic data sets](https://developer.ibm.com/tutorials/build-an-openeew-earthquake-early-warning-node-red-dashboard/)
-* [Build a Blockchain network for trusted IoT](https://developer.ibm.com/patterns/build-a-blockchain-network-for-trusted-iot/)
+* [Build a blockchain network for trusted IoT](https://developer.ibm.com/patterns/build-a-blockchain-network-for-trusted-iot/)
 
-#### Artificial Intelligence
+#### Artificial intelligence
 
 Use AI to create apps that accelerate, enhance, and scale the human experience.
 
@@ -140,7 +138,7 @@ Use AI to create apps that accelerate, enhance, and scale the human experience.
 * [Online order processing during pandemics](https://developer.ibm.com/patterns/online-order-processing-system-during-pandemic/)
 * [Build an image classification model](https://developer.ibm.com/patterns/build-an-american-sign-language-alphabet-classifier-using-pytorch-and-gpu-environments-on-watson-studio/)
 
-#### Data Science
+#### Data science
 
 Analyze structured and unstructured data to extract knowledge and insights related to urgent issues.
 
@@ -157,7 +155,7 @@ Collect and analyze device sensor data to take corrective or preventive action a
 * [Turn your smartphone into an IoT device](https://developer.ibm.com/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/)
 * [Watson on Node-RED](https://developer.ibm.com/open/projects/watson-on-node-red/)
 
-#### API Integration Documentation
+#### API integration documentation
 
 Access the technical documentation for API integrations.
 
@@ -167,7 +165,7 @@ Access the technical documentation for API integrations.
 * [Cloud Pak for Data APIs and SDKs](https://www.ibm.com/support/producthub/icpdata/apis)
 * [IBM API hub](https://developer.ibm.com/apis/catalog/)
 
-#### NGO Documents
+#### NGO documents
 
 These are the go-to documents for measuring impact and progress against the key issue.
 
