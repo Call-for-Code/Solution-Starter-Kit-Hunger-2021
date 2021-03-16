@@ -1,10 +1,10 @@
 # Solution Ideas
 
-This is a list of potential solutions that teams can use the Zero Hunger starter kit to implement. Please feel free to use these ideas, or develop an idea of your own.
+This is a list of potential solutions that teams can use the Zero Hunger starter kit to implement. Please feel free to use these ideas, or develop an idea of your own. The goals are measurable
 
 ## Solution idea: Image Sharing
 
-Farmers use non-smartphones to communicate
+Farmers use non-smartphones to communicate and create a database of information that can be used to analyze trends.
 
 ```diff
 ! A co-operative
@@ -12,7 +12,7 @@ Farmers use non-smartphones to communicate
 - in order to optimize productivity by 30% through knowledge sharing.
 ```
 
-TBD
+To implement this solution, you can use the SMS gateway integration provided by the starter kit to allow farmers to send messages and images to a central database, e.g. Cloudant and IBM Cloud Object Storage. You could further analyze the information using IBM Cloud Pak for Data's Watson AI/ML offerings.
 
 ## Solution idea: Accounting & Credits
 
