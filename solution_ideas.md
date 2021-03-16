@@ -1,3 +1,15 @@
+## Solution idea: Image Sharing
+
+Farmers use non-smartphones to communicate
+
+```diff
+! A co-operative
++ can aggregate data from farmers via phone cameras and sms to analyze the data 
+- in order to optimize productivity by 30% through knowledge sharing.
+```
+
+TBD
+
 ## Solution idea: Accounting & Credits
 
 Farmers work with co-operatives to get credit for their goods.
