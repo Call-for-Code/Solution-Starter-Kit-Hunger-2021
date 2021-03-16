@@ -4,6 +4,14 @@ This is a list of potential solutions that teams can use the Zero Hunger starter
 
 We encourage you to choose clear, measurable outcomes, even if you are not able to prove they can be achieved at the outset. Additionally, think about how you can utilize the integrations provided by our starter kit, and which additional integreations you'll need to create on your own.
 
+Each of our solution ideas is presented in the following format:
+
+```diff
+! Who?
++ What will they do?
+- To achieve this measurable outcome (wow!)
+```
+
 ## Solution idea: Image Sharing
 
 Farmers use non-smartphones to communicate and create a database of information that can be used to analyze trends.
