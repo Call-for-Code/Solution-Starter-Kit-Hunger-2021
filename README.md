@@ -1,8 +1,8 @@
-# Call for Code Solution Starter-Kit: Zero Hunger
+# Call for Code solution starter kit: Zero hunger
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack)
 
-The Zero Hunger Call for Code starter kit helps developers build applications to addresss the real-world challenge of global hunger under the Climate Change theme in 2021. This starter kit will give you the tools to connect farmers, cooperatives and consumers through a potential technology solution for the problem of global hunger.
+According to the [UN Hunger Report](http://www.fao.org/publications/sofi/en/), hunger is when people are experiencing severe food insecurity — meaning that they go for entire days without eating due to lack of money, lack of access to food, or other resources, and that the number of people affected by hunger globally has been slowly rising since 2014. Use this starter kit to build applications to addresss the real-world challenge of global hunger. The starter kit provides tools and resources from our experts to help you jump-start your own solution.
 
 ## Contents
 
@@ -18,108 +18,145 @@ The Zero Hunger Call for Code starter kit helps developers build applications to
 
 ## Short Description
 
+This starter kit can help you begin your Call for Code solution. The starter kit pulls together resources to help you and your team use technology to create applications to tackle hunger issues around the world.
+
 ### What's the problem?
 
-8.9% of the global population is suffering from hunger. The UN Sustainable Development Goal #2 of Zero Hunger sets ambitious targets to profoundly change the global food and agriculture system and give more people a regular access to safe, nutritious, and sufficient food to reach zero hunger by 2030. 
-
-Much of the world’s food is grown by small scale independent farms and distributed through local community co-operatives who sell the surplus produce. The co-ops are a central point for quality control, deliveries and enabling food commodity markets. These co-ops face a myriad of logistical challenges to get the right food, to the right places, with minimal time and cost. 
+Approximately 9% of the global population is suffering from hunger. And, much of the world's food is grown by small-scale, independent farms and distributed through local community cooperatives who sell the surplus produce. The co-ops are a central point for quality control, deliveries, and enabling food commodity markets. However, these co-ops face a myriad of logistical challenges to get the right food to the right places with minimal time and cost. 
 
 ### How can technology help?
 
-By bringing the paper ledgers of food co-ops online, the communities can harness data insights from their environment for better crop resilience and overall yield for sustainable food production systems at the grassroots. More crops mean better access to food for the community.
-Rural farmers may not have the access to network connectivity, digital literacy, language or appetite for risk to adopt tech solutions directly, so the co-ops become the pivotal point of innovation. 
+Technology can help in many ways. For example, by bringing the paper ledgers of food co-ops online, communities can harness data insights from their environment for better crop resilience and overall yield for sustainable food production systems. More crops mean better access to food for the community. Rural farmers might not have access to network connectivity, digital literacy, or the language to adopt tech solutions directly, so the co-ops become the pivotal point of innovation.
 
-### The Idea
+IBM provides various technologies such as IoT, Watson, and blockchain. [IBM Food Trust](https://www.ibm.com/blockchain/solutions/food-trust) is a blockchain innovation that helps the ecosystem of producers, suppliers, manufacturers, retailers, and others to create a smarter, safer, more sustainable food system for all.
 
-Co-operative systems can be digitised and enhanced to improve access to nutritious food in local communities (especially those suffering from acute hunger). By aggregating and analysing market, transport, demand, horticultural and environmental data they can optimise productivity, reduce overheads and decrease volatility in the supply chain of these farming communities that can address the global hunger crisis. 
+### The idea
 
-## Demo Video - TBD
+To improve access to nutritious food in local communities (especially those suffering from acute hunger), co-operative systems can be digitised and enhanced. By aggregating and analysing market, transportation, demand, horticultural, and environmental data the co-ops can optimise productivity, reduce overhead, and decrease volatility in the supply chain of the farming communities. 
+
+### Solution ideas
+
+This section provides several examples that you and your team can use to jump-start your solution ideas. The following ideas are examples only, so feel free to brainstorm with your team to create your own original ideas and solutions. For example, the 2020 Call for Code Grand Prize winnter, [Agrolly](https://developer.ibm.com/blogs/agrolly/) created a solution that uses IBM Cloud Object Storage, IBM Watson Studio, IBM Watson Assistant, and The Weather Company technologies to execute climate risk assessments, which allows farmers with less resources available to them to still make more educated decisions, obtain the necessary financing, and improve their economic outcome.
+
+#### Idea 1
+
+Optimize productivity
+
+| Who | What | How |
+| -- | -- | -- |
+| A cooperative | can optimize productivity by 30% through knowledge sharing | by aggregating data from farmers through phone cameras and sms to analyze the data |
+
+#### Idea 2
+
+Create transparency and reduce overhead
+
+| Who | What | How |
+| -- | -- | -- |
+| A cooperative | can create transparency among transactions and reduce overhead and labor | by managing farmers' accounts, including credits, to facilitate trade and distribution of funds |
+
+#### Idea 3
+
+Sell products for an optimal price
+
+| Who | What | How |
+| -- | -- | -- |
+| A cooperative leader | can help maximize profit | by finding nearby markets to sell a product for the optimal price |
+
+#### Idea 4
+
+Lower transportation
+
+| Who | What | How |
+| -- | -- | -- |
+| A cooperative  | can optimize refueling routes and trips to lower transport costs | by connecting with other cooperatives |
+
+#### Idea 5
+
+Increase a farmer's yield
+
+| Who | What | How |
+| -- | -- | -- |
+| A cooperative  | can increase a farmer's yield | by using weather and trend data to provide farmers with personalized plans regarding when to plant fertilize, and irrigate |
+
+#### Idea 6
+
+Decrease exposure to income loss and volatility
+
+| Who | What | How |
+| -- | -- | -- |
+| A cooperative  | can decrease exposure to income loss and volatility | by providing recommendations to farmers on the best crops to grow based on market, geographic, and environmental patterns |
+
+## Video
 
 [![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
-## The Architecture
+## The architecture
 
 ![Digital Co-Operative Management System](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/architecture_diagram.png)
 
-1. User uses their non-smart phone camera to capture a photo of their product yield to send for quality testing and analysis.
-2. User sends a camera image and/or a text message through their non-smart phone messenger.
-3. The image and/or message is redirected to the Twilio Programmable Messaging service or to the Telstra Messaging service for users located in Australia.
-4. Twilio Programmable Messaging or Telstra Messaging will forward the message to the Node-RED app hosted on IBM Cloud.
-5. The Node-RED app interacts with Watson Machine Learning to get the response.
-6. Cloud Object Storage is provisioned to receive the images and/or message data.
-7. The image and/or message data is added to the available Cloud Object Storage.
-8. Watson Machine Learning does the necessary computations and returns a response.
-9. The Node-RED app processes the response and converts it to user-readable format and forwards to the digital co-operative management system app UI. (Optional: to Twilio or Telstra)
-10. The response is then sent to the digital co-operative management system UI.
-11. The Co-operative admin is able to view the response, assess the quality of the product yield, accept & manage purchase orders, and manage client credits for payment via the digital co-operative management system UI.
-12. (Optional: Twilio forwards this message as a reply through their messenger)
-13. (Optional: The user will receive this as a response from Watson Machine Learning service on their phone's messenger)
+1. The user uses their non-smart phone camera to capture a photo of their product yield to send for quality testing and analysis.
+1. The user sends a camera image or a text message through their non-smart phone messenger.
+1. The image or message is redirected to the Twilio Programmable Messaging service or to the Telstra Messaging service for users located in Australia.
+1. Twilio Programmable Messaging or Telstra Messaging forwards the message to the Node-RED app hosted on IBM Cloud.
+1. The Node-RED app interacts with Watson Machine Learning to get the response.
+1. IBM Cloud Object Storage is provisioned to receive the images or message data.
+1. The image or message data is added to the available IBM Cloud Object Storage.
+1. Watson Machine Learning runs the necessary computations and returns a response.
+1. The Node-RED app processes the response and converts it to a user-readable format and forwards it to the digital co-operative management system app UI (Optional: to Twilio or Telstra).
+1. The response is sent to the digital co-operative management system UI.
+1. The co-operative administrator is able to view the response, assess the quality of the product yield, accept and manage purchase orders, and manage client credits for payment through the digital co-operative management system UI.
+1. Twilio forwards this message as a reply through their messenger. (Optional)
+1. The user receives this as a response from Watson Machine Learning service on their phone's messenger. (Optional)
 
 ## Getting Started
 
-You can create a solution based on the proposed solution architecture above by exploring the following resources on the [IBM Developer](https://developer.ibm.com/) site. I'm 
-
-### Example Solutions
-
-Here are some ideas for solutions that this starter kit can help you build:
-
-#### A cooperative can aggregate data from farmers via phone cameras and sms to analyze the data in order to optimize productivity by 30% through knowledge sharing.
-
-#### A cooperative can manage farmers’ accounts, including credits, to facilitate trade and distribution of funds in order to create transparency among transactions and reducing overhead and labor by ~40%.
-
-#### A cooperative leader can find nearby markets to sell their products for the optimal price to maximize profit by ~20–40%.
-
-#### A cooperative can connect with other cooperatives to optimize refueling routes and trips to lower transport costs by ~50%.
-
-#### A cooperative can use weather and trend data to provide farmers with personalized plans regarding when to plant, fertilize, and irrigate to increase the farmer’s yield by ~25%.
-
-#### A cooperative can provide recommendations on the best crops to grow based on their market, geographic, and environmental patterns to decrease exposure to income loss and volatility by ~30%.
-
-### Tutorial - TBD
+You can create a solution based on the proposed solution architecture by exploring the following resources on [IBM Developer](https://developer.ibm.com/).
 
 ### Resources
 
+Use the following resources to help you identify a topic and create your own solution.
+
+#### Tutorials
+
+* [Combating global hunger with the Node-RED starter kit](need link)
+* [Create serverless functions to send push notifications](https://developer.ibm.com/patterns/serverless-functions-push-notifications/)
+
 #### Node-RED
 
-Node-RED
+* [Create a Node-RED starter application](https://developer.ibm.com/tutorials/how-to-create-a-node-red-starter-application/)
+* [Build a secure microservices-based banking app](https://developer.ibm.com/components/node-red/patterns/build-a-secure-microservices-based-application-with-transactional-flows/)
+* [Build a Node-RED COVID-19 dashboard](https://developer.ibm.com/tutorials/build-a-node-red-covid-19-dashboard-using-twc-disease-tracker-api/)
+* [Build an Earthquake Early Warning (EEW) system and visualize historical seismic data sets](https://developer.ibm.com/tutorials/build-an-openeew-earthquake-early-warning-node-red-dashboard/)
+* [Build a blockchain network for trusted IoT](https://developer.ibm.com/patterns/build-a-blockchain-network-for-trusted-iot/)
 
-* [Create a Node-RED Starter Application](https://developer.ibm.com/tutorials/how-to-create-a-node-red-starter-application/)
-* [Build a Secure Microservices-Based Banking App](https://developer.ibm.com/components/node-red/patterns/build-a-secure-microservices-based-application-with-transactional-flows/)
-* [Develop an IoT App with Node-RED & Watson](https://developer.ibm.com/callforcode/technical-library/)
-* [Build a Node-RED COVID-19 Dashboard](https://developer.ibm.com/tutorials/build-a-node-red-covid-19-dashboard-using-twc-disease-tracker-api/)
-* [Build an Earthquake Early Warning (EEW) System & Visualize Historical Seismic Datasets](https://developer.ibm.com/tutorials/build-an-openeew-earthquake-early-warning-node-red-dashboard/)
-* [Build a Blockchain Network for Trusted IoT](https://developer.ibm.com/components/node-red/patterns/build-a-blockchain-network-for-trusted-iot/)
-
-#### Artificial Intelligence
+#### Artificial intelligence
 
 Use AI to create apps that accelerate, enhance, and scale the human experience.
 
-* [Build a Framework that Connects WhatsApp to Watson Services](https://developer.ibm.com/patterns/build-a-framework-that-connects-whatsapp-to-any-watson-service-on-ibm-cloud/)
-* [Create a Web Application to Optimize your Supply Chain Inventory](https://developer.ibm.com/technologies/artificial-intelligence/patterns/leverage-decision-optimization-models-in-procurement-app-for-store-managers/)
-* [Online order processing during pandemics](https://developer.ibm.com/technologies/artificial-intelligence/patterns/online-order-processing-system-during-pandemic/)
-* [Build an Image Classification Model](https://developer.ibm.com/technologies/artificial-intelligence/patterns/build-an-american-sign-language-alphabet-classifier-using-pytorch-and-gpu-environments-on-watson-studio/)
+* [Build a framework that connects WhatsApp to Watson Services](https://developer.ibm.com/patterns/build-a-framework-that-connects-whatsapp-to-any-watson-service-on-ibm-cloud/)
+* [Create a web application to optimize your supply chain inventory](https://developer.ibm.com/patterns/leverage-decision-optimization-models-in-procurement-app-for-store-managers/)
+* [Online order processing during pandemics](https://developer.ibm.com/patterns/online-order-processing-system-during-pandemic/)
+* [Build an image classification model](https://developer.ibm.com/patterns/build-an-american-sign-language-alphabet-classifier-using-pytorch-and-gpu-environments-on-watson-studio/)
 
-#### Data Science
+#### Data science
 
 Analyze structured and unstructured data to extract knowledge and insights related to urgent issues.
 
-* [Link 1](https://developer.ibm.com/callforcode/technical-library/)
-* [Link 2](https://developer.ibm.com/callforcode/technical-library/)
-* [Link 3](https://developer.ibm.com/callforcode/technical-library/)
+* [Useful data sets for Call for Code](https://developer.ibm.com/callforcode/blogs/useful-data-sets-for-call-for-code-2020/)
+* [Identify patterns, relationships, and connections using data visualization[(https://developer.ibm.com/tutorials/data-visualization-a-powerful-tool-for-visualizing-insight-data-overview/)
 
 #### Internet of Things
 
 Collect and analyze device sensor data to take corrective or preventative action automatically.
 
-* [Build your First IoT Application with Twilio](https://developer.ibm.com/tutorials/iot-monitoring-app-node-red-bluemix-trs/)
-* [Build a Cognitive IoT App in 7 Steps](https://developer.ibm.com/tutorials/iot-cognitive-iot-app-machine-learning/)
-* [Create an Internet of Things Platform Starter Application](https://developer.ibm.com/tutorials/how-to-create-an-internet-of-things-platform-starter-application/)
-* [Turn your Smartphone into an IoT Device](https://developer.ibm.com/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/)
+* [Build your first IoT application with Twilio](https://developer.ibm.com/tutorials/iot-monitoring-app-node-red-bluemix-trs/)
+* [Build a cognitive IoT app in just 7 steps](https://developer.ibm.com/technologies/artificial-intelligence/tutorials/iot-cognitive-iot-app-machine-learning)
+* [Create an Internet of Things Platform starter application](https://developer.ibm.com/tutorials/how-to-create-an-internet-of-things-platform-starter-application/)
+* [Turn your smartphone into an IoT device](https://developer.ibm.com/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/)
 * [Watson on Node-RED](https://developer.ibm.com/open/projects/watson-on-node-red/)
-* [Applying AI & Edge Prediction to IoT Data](https://developer.ibm.com/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/)
-* [Analyze Industrial Equipment for Defects](https://developer.ibm.com/patterns/analyze-industrial-equipment-defects/)
+* [Turn your smartphone into an IoT device](https://developer.ibm.com/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/)
 
-#### API Integration Documentation
+#### API integration documentation
 
 Access the technical documentation for API integrations.
 
@@ -127,34 +164,25 @@ Access the technical documentation for API integrations.
 * [Twilio MMS Messaging API](https://www.twilio.com/mms)
 * [IBM Cloud Pak for Data Platform API](https://cloud.ibm.com/apidocs/cloud-pak-data)
 * [Cloud Pak for Data APIs and SDKs](https://www.ibm.com/support/producthub/icpdata/apis)
+* [API hub](https://developer.ibm.com/apis/catalog/)
 
-#### Data Sets
-
-These public data sets provide information on the problem.
-
-* [Link 1](https://developer.ibm.com/callforcode/technical-library/)
-* [Link 2](https://developer.ibm.com/callforcode/technical-library/)
-* [Link 3](https://developer.ibm.com/callforcode/technical-library/)
-
-#### NGO Documents
+#### NGO documents
 
 These are the go-to documents for measuring impact and progress against the key issue.
 
-* [Landscaping the Agritech Ecosystem for Smallholder Farmers in Latin America and the Caribbean](https://www.gsma.com/mobilefordevelopment/resources/landscaping-the-agritech-ecosystem-for-smallholder-farmers-in-latin-america-and-the-caribbean/)
-* [Link 2](https://developer.ibm.com/callforcode/technical-library/)
-* [Link 3](https://developer.ibm.com/callforcode/technical-library/)
+* [Landscaping the agritech ecosystem for smallholder farmers in Latin America and the Caribbean](https://www.gsma.com/mobilefordevelopment/resources/landscaping-the-agritech-ecosystem-for-smallholder-farmers-in-latin-america-and-the-caribbean/)
 
-## Contributing - TBD
+## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+Please read about [contributing](CONTRIBUTING.md) to this repository for details on our code of conduct and the process for submitting pull requests.
 
 ## Authors
 
-* **Michelle Howie** - *Problem Statement & Description* - [Twitter](https://twitter.com/michelle2minhye)
-* **Jenna Ritten** - *Architectural Diagram, Flow & Resources* - [Twitter](https://twitter.com/jritten)
-* **David Nugent** - *Outline & Resources* - [Twitter](https://twitter.com/drnugent)
+* Michelle Howie
+* Jenna Ritten
+* David Nugent
 
-See also the list of [contributors](https://github.com/Call-for-Code/Starter-Kit-Template-2021/graphs/contributors) who participated in the creation of this starter kit.
+Additionally, see the list of [contributors](https://github.com/Call-for-Code/Starter-Kit-Template-2021/graphs/contributors) who participated in the creation of this starter kit.
 
 ## License
 
