@@ -63,6 +63,7 @@ You can create a solution based on the proposed solution architecture by explori
 ### Tutorial & Walkthrough
 
 TBD
+[API Documentation Links](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/README.md#api-integration-documentation)
 
 ### Solution ideas
 
@@ -77,7 +78,9 @@ Each of these example solutions follows the Who/What/How format:
 ```
 
 
-#### Example solution 1: Optimize productivity
+#### Example solution: Accounting & Credits
+
+Farmers work with cooperatives to get credit for their goods.
 
 ```diff
 ! A cooperative
@@ -86,9 +89,23 @@ Each of these example solutions follows the Who/What/How format:
 ```
 
 Technologies needed:
-* 
+* Real-time messaging between farmers and cooperatives
+* Real-time price & market data
+* Distributed ledger
 
-#### Idea 2
+#### Solution Idea: Image Sharing
+
+Farmers use non-smartphones to communicate
+
+```diff
+! A cooperative
++ can aggregate data from farmers via phone cameras and sms to analyze the data 
+- in order to optimize productivity by 30% through knowledge sharing.
+```
+
+Technologies needed:
+* TBD
+* TBD
 
 Create transparency and reduce overhead
 
