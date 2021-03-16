@@ -77,19 +77,6 @@ Each of these example solutions follows the Who/What/How format:
 - To achieve this result ("wow!")
 ```
 
-
-#### Solution idea: Accounting & Credits
-
-Farmers work with co-operatives to get credit for their goods.
-
-```diff
-! A co-operative
-+ can manage farmers’ accounts, including credits, to facilitate trade and distribution of funds in order 
-- to create transparency among transactions and reducing overhead and labor
-```
-
-In order to implement this solution, you can use the SMS gateway integration provided by the starter kit to provide real-time messaging between farmers and cooperatives. As a stretch goal, you may find and aggregate real-time price & market data, and optionally integrate a distributed ledger, such as blockchain, to track transactions.
-
 #### Solution idea: Image Sharing
 
 Farmers use non-smartphones to communicate
@@ -100,94 +87,11 @@ Farmers use non-smartphones to communicate
 - in order to optimize productivity by 30% through knowledge sharing.
 ```
 
-Technologies needed TBD
+#### Additional solution ideas:
 
-#### Solution idea: Weather Data
-
-TBD TBD
-
-```diff
-! A co-operative
-+ can aggregate data from farmers via phone cameras and sms to analyze the data 
-- in order to optimize productivity by 30% through knowledge sharing.
-```
-
-Technologies needed TBD
-
-#### Solution idea: Optimize Trips
-
-TBD TBD
-
-```diff
-! A co-operative
-+ can aggregate data from farmers via phone cameras and sms to analyze the data 
-- in order to optimize productivity by 30% through knowledge sharing.
-```
-
-Technologies needed TBD
-
-#### Solution idea: Choose Crops
-
-TBD TBD
-
-```diff
-! A co-operative
-+ can aggregate data from farmers via phone cameras and sms to analyze the data 
-- in order to optimize productivity by 30% through knowledge sharing.
-```
-
-Technologies needed TBD
-
-#### Solution idea: Increase Prices
-
-TBD TBD
-
-```diff
-! A co-operative
-+ can aggregate data from farmers via phone cameras and sms to analyze the data 
-- in order to optimize productivity by 30% through knowledge sharing.
-```
-
-Technologies needed TBD
-
-
-Create transparency and reduce overhead
-
-| Who | What | How |
-| -- | -- | -- |
-| A cooperative | can create transparency among transactions and reduce overhead and labor | by managing farmers' accounts, including credits, to facilitate trade and distribution of funds |
-
-#### Idea 3
-
-Sell products for an optimal price
-
-| Who | What | How |
-| -- | -- | -- |
-| A cooperative leader | can help maximize profit | by finding nearby markets to sell a product for the optimal price |
-
-#### Idea 4
-
-Lower transportation costs
-
-| Who | What | How |
-| -- | -- | -- |
-| A cooperative  | can optimize refueling routes and trips to lower transportation costs | by connecting with other cooperatives |
-
-#### Idea 5
-
-Increase a farmer's yield
-
-| Who | What | How |
-| -- | -- | -- |
-| A cooperative  | can increase a farmer's yield | by using weather and trend data to provide farmers with personalized plans regarding when to plant, fertilize, and irrigate |
-
-#### Idea 6
-
-Decrease exposure to income loss and volatility
-
-| Who | What | How |
-| -- | -- | -- |
-| A cooperative  | can decrease exposure to income loss and volatility | by providing recommendations to farmers on the best crops to grow based on market, geographic, and environmental patterns |
+* (Accounting & Credits](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-accounting--credits)
+* TBD
+* TBD
 
 ### Resources
 
