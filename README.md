@@ -87,13 +87,15 @@ Farmers use non-smartphones to communicate
 - in order to optimize productivity by 30% through knowledge sharing.
 ```
 
+TBD TBD
+
 #### Additional solution ideas:
 
 * [Accounting & Credits](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-accounting--credits)
-* Weather Data
-* Optimize Trips
-* Choose Crops
-* Increase Prices
+* [Weather Data](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-weather-data)
+* [Optimize Trips](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-optimize-trips)
+* [Choose Crops](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-choose-crops)
+* [Increase Prices](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-increase-prices)
 
 ### Resources
 
