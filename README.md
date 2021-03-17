@@ -40,7 +40,7 @@ To improve access to nutritious food in local communities (especially those suff
 
 ## The architecture
 
-![Digital Co-Operative Management System](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/architecture_diagram.png)
+![Digital Co-Operative Management System](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/hunger-starter-kit-architecture.png)
 
 1. The user uses their non-smart phone camera to capture a photo of their product yield to send for quality testing and analysis.
 1. The user sends a camera image or a text message through their non-smart phone messenger.
