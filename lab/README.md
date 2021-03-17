@@ -8,6 +8,7 @@ In order to get you familiar with this starter kit and creating services on IBM 
 * [Creating a Telstra SMS integration](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/README.md#creating-a-telstra-sms-integration)
 * [Integreating with the Weather Company](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/README.md#integrating-with-the-weather-company)
 * [Creating a Dashboard Visualization](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/README.md#creating-a-dashboard-visualization)
+* [Additional Resources](#creating-a-dashboard-visualization)
 
 ## Creating your IBM Cloud Account
 1. Visit the [IBM Cloud Registration page](https://cloud.ibm.com/registration) and fill out your email and password
@@ -95,3 +96,6 @@ The Weather Company is an IBM business that provides a number o
 
 *TBD: Dashboard explanation*
 
+
+## Additional Resources
+* [API Documentation Links](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/README.md#api-integration-documentation)
