@@ -55,6 +55,8 @@ Further reading:
 
 ## Creating your Twilio SMS integration
 
+![Twilio Flow](images/twilio-1.png)
+
 Since local farmers often do not possess smartphones, we anticipate that SMS will become a critical component of communications in many Call for Code solutions. To facilitate this, we've created a sample Twilio SMS flow, along with additional resources below.
 
 1. In order to get started, you'll need a Twilio account. [Sign up for Twilio here](www.twilio.com/referral/lup4VV).
@@ -63,12 +65,16 @@ Since local farmers often do not possess smartphones, we anticipate that SMS wil
 
 ## Creating a Telstra SMS integration
 
+![Telstra Flow](images/telstra-1.png)
+
 When addressing the Australian market, an integration with Telstra can facilitate communication with local stakeholders. This section will cover our example Telstra Node-RED flow.
 
 *TBD: Telstra flow walkthrough*
 
 1. [Register for your TelstraDev account here](https://dev.telstra.com/tdev/user/register). This will require you to create a Telstra ID, if you don't already have one.
+![Telstra Registration](images/telstra-2.png)
 2. Check your email and click on the link in the Telstra verification email.
+3. Enter your phone number (including country code) and request a one-time verification token. When you receive the code, enter it to proceed to the Telstra Developer Dashboard.
 
 ### Further reading:
 * [Telstra Messaging API documentation](https://dev.telstra.com/content/messaging-api)
@@ -76,11 +82,16 @@ When addressing the Australian market, an integration with Telstra can facilitat
 
 ## Integrating with the Weather Company
 
+![The Weather Company Flow](images/twc-1.png)
+
 *TBD: Waiting on keys*
 
-The Weather Company is a 
+The Weather Company is an IBM business that provides a number o 
 
 ## Creating a Dashboard Visualization
+
+![The Weather Company Flow](images/twc-1.png)
+
 
 *TBD: Dashboard explanation*
 
