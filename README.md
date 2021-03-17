@@ -44,7 +44,7 @@ To improve access to nutritious food in local communities (especially those suff
 
 1. The user uses their non-smart phone camera to capture a photo of their product yield to send for quality testing and analysis.
 1. The user sends a camera image or a text message through their non-smart phone messenger.
-1. The image or message is redirected to the Twilio Programmable Messaging service or to the Telstra Messaging service for users located in Australia.
+1. The image or message is redirected to the Twilio MMS Messaging service or to the Telstra MMS Messaging service for users located in Australia.
 1. Twilio MMS Messaging or Telstra MMS Messaging forwards the message to the Node-RED app hosted on IBM Cloud.
 1. The Node-RED app interacts with IBM Cloud Pak for Data AI/ML service to get the response.
 1. IBM Cloud Object Storage is provisioned to receive the images or message data.
@@ -53,7 +53,7 @@ To improve access to nutritious food in local communities (especially those suff
 1. The Node-RED app processes the response, converts it to a user-readable format, and forwards it to the digital co-operative management system app UI (Optional: to Twilio or Telstra).
 1. The response is sent to the digital co-operative management system UI.
 1. The co-op administrator is able to view the response through the digital co-operative management system UI.
-1. Twilio or Telstra forwards the response message as a reply to the user through their messaging apis. (Optional)
+1. Twilio or Telstra forwards the response message as a reply to the user through their messaging APIs. (Optional)
 1. The user receives this as a response from the IBM Cloud Pak for Data AI/ML service on their phone's messenger. (Optional)
 
 ## Getting started
