@@ -20,12 +20,22 @@ In order to get you familiar with this starter kit and creating services on IBM 
 3. You're now looking at the IBM Cloud Catalog, a list of software and services that you can automatically deploy on the cloud. Find the **Search** box and type `node` to filter down the services. Select **Node-RED App**.
 ![Search box](images/nr-2.png)
 4. For our Node-RED isntance, we will use the Cloudant database. Cloudant is a scalable, distributed cloud database based on Apache CouchDB. This page includes links to the [Cloudant Docs](https://cloud.ibm.com/docs/Cloudant) and [Cloudant API reference](https://cloud.ibm.com/apidocs/cloudant). Click **Get Started** to continue.
-![Get started](images/nr3.png)
+![Get started](images/nr-3.png)
+5. You're now on the **Create** tab. You'll notice that an application name has been chosen for you, but you can feel free to change it. At the bottom of the page, make sure **Pricing plan** is set to **Lite**. This ensures you will not be charged for the application. Click **Create**.
+![Application settings](images/nr-4.png)
+*Note: You can only have one Cloudant instance using the Lite plan. If you have already got an instance, you will be able to select it from the Pricing plan select box. You can have more than one Node-RED Starter application using the same Cloudant service instance.*
+6. After a few moments, your Cloudant database will finish provisioning and will be available for use. At this point, we will be able to create our Node-RED app and store it in the Cloudant database. 
 
-## Creating a Cloudant Database
+Further reading:
+* [How to Create a Node-RED Starter Application on IBM Cloud](https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red-starter-application/)
+
+## Integrating with Cloudant Database
+
+In the last step, we created a Cloudant databae in order to store our Node-RED application. While we are only able to create one Cloudant database on our IBM Cloud Lite tier, we can store information other than our Node-RED application in the same database.
 
 ## Creating your Twilio SMS integration
-
+### Further reading:
+* [Example Flow: How to process a Twilio SMS request in Node-RED](https://flows.nodered.org/flow/d65e0c5e4f5fef767be2)
 ## Creating a Telstra SMS integration
 
 ## Integrating with the Weather Company
