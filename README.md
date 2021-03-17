@@ -42,19 +42,19 @@ To improve access to nutritious food in local communities (especially those suff
 
 ![Digital Co-Operative Management System](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/hunger-starter-kit-architecture.png)
 
-1. The user uses their non-smart phone camera to capture a photo of their product yield to send for quality testing and analysis.
-1. The user sends a camera image or a text message through their non-smart phone messenger.
-1. The image or message is redirected to the Twilio MMS Messaging service or to the Telstra MMS Messaging service for users located in Australia.
-1. Twilio MMS Messaging or Telstra MMS Messaging forwards the message to the Node-RED app hosted on IBM Cloud.
-1. The Node-RED app interacts with IBM Cloud Pak for Data AI/ML service to get the response.
-1. IBM Cloud Object Storage is provisioned to receive the images or message data.
-1. The image or message data is added to the available IBM Cloud Object Storage.
-1. The IBM Cloud Pak for Data AI/ML service runs the necessary computations and returns a response.
-1. The Node-RED app processes the response, converts it to a user-readable format, and forwards it to the digital co-operative management system app UI (Optional: to Twilio or Telstra).
-1. The response is sent to the digital co-operative management system UI.
-1. The co-op administrator is able to view the response through the digital co-operative management system UI.
-1. Twilio or Telstra forwards the response message as a reply to the user through their messaging APIs. (Optional)
-1. The user receives this as a response from the IBM Cloud Pak for Data AI/ML service on their phone's messenger. (Optional)
+1. The User uses their non-smartphone device camera to capture a photo of their product yield for quality testing and analysis.
+1. The User sends a camera image and/or a text message through their non-smartphone device MMS/SMS service.
+1. The image and/or message is redirected to the Twilio Programmable Messaging service or to the Telstra Programmable Messaging service for users located in Australia.
+1. The Twilio Programmable Messaging service or Telstra Programmable Messaging service will forward the message to the Node-RED app hosted on IBM Cloud.
+1. The Node-RED app interacts with the IBM Cloud Pak for Data AI/ML service to get the response.
+1. IBM Cloud Object Storage is provisioned to receive the images and/or message data.
+1. The image and/or message data is added to the available IBM Cloud Object Storage.
+1. The IBM Cloud Pak for Data AI/ML service does the necessary computations and returns a response.
+1. The Node-RED app processes the response, converts it to a user-readable format, and forwards it to the digital co-operative management system App UI (Optional: to Twilio or Telstra).
+1. The response is reveived by the digital co-operative management system App UI.
+1. The Co-op Admin is able to view the response via the digital co-operative management system App UI.
+1. (Optional: The Twilio or Telstra Programmable Messaging service forwards the response as a reply message to the User through their messaging APIs.)
+1. (Optional: The User will receive the reply message as a response from the IBM Cloud Pak for Data AI/ML service through their non-smartphone device MMS/SMS service.)
 
 ## Getting started
 
