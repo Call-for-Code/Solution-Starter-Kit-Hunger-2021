@@ -45,7 +45,7 @@ Further reading:
 
 In the last step, we created a Cloudant databae in order to store our Node-RED application. While we are only able to create one Cloudant database on our IBM Cloud Lite tier, we can store information other than our Node-RED application in the same database.
 
-![Cloudant Database Flow](images/nr-11.png)
+![Cloudant Database Flow](images/cloudant-1.png)
 
 *TBD: Database flow walkthrough*
 
@@ -55,15 +55,30 @@ Further reading:
 
 ## Creating your Twilio SMS integration
 
+Since local farmers often do not possess smartphones, we anticipate that SMS will become a critical component of communications in many Call for Code solutions. To facilitate this, we've created a sample Twilio SMS flow, along with additional resources below.
+
+1. In order to get started, you'll need a Twilio account. [Sign up for Twilio here](www.twilio.com/referral/lup4VV).
+
 *TBD: Twilio flow walkthrough*
 
-### Further reading:
-* [Example Flow: How to process a Twilio SMS request in Node-RED](https://flows.nodered.org/flow/d65e0c5e4f5fef767be2)
 ## Creating a Telstra SMS integration
+
+When addressing the Australian market, an integration with Telstra can facilitate communication with local stakeholders. This section will cover our example Telstra Node-RED flow.
+
+*TBD: Telstra flow walkthrough*
+
+1. [Register for your TelstraDev account here](https://dev.telstra.com/tdev/user/register). This will require you to create a Telstra ID, if you don't already have one.
+2. Check your email and click on the link in the Telstra verification email.
+
+### Further reading:
+* [Telstra Messaging API documentation](https://dev.telstra.com/content/messaging-api)
+* [Example Flow: A Node-RED flow to send SMS messages via the Telstra Messaging API](https://github.com/brendan-myers/node-red-contrib-telstra-messaging)
 
 ## Integrating with the Weather Company
 
 *TBD: Waiting on keys*
+
+The Weather Company is a 
 
 ## Creating a Dashboard Visualization
 
