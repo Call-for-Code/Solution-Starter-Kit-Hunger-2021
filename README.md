@@ -54,7 +54,7 @@ To improve access to nutritious food in local communities (especially those suff
 1. The response is received by the digital co-operative management system app UI.
 1. The co-op admin is able to view the response via the digital co-operative management system app UI.
 1. (Optional: The Twilio or Telstra Programmable Messaging service forwards the response as a reply message to the User through their messaging APIs.)
-1. (Optional: The User receives the reply message as a response from the IBM Cloud Pak for Data AI/ML service through their non-smartphone device MMS/SMS service.)
+1. (Optional: The user receives the reply message as a response from the IBM Cloud Pak for Data AI/ML service through their non-smartphone device MMS/SMS service.)
 
 ## Getting started
 
