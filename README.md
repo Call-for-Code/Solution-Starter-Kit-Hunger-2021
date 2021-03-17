@@ -163,6 +163,7 @@ Please read about [contributing](CONTRIBUTING.md) to this repository for details
 * [Michelle Howie](https://www.linkedin.com/in/michelle-howie-a98358b2/)
 * [Jenna Ritten](https://developer.ibm.com/profiles/jritten/)
 * [Dave Nugent](https://developer.ibm.com/profiles/drnugent/)
+
 Additionally, see the list of [contributors](https://github.com/Call-for-Code/Starter-Kit-Template-2021/graphs/contributors) who participated in the creation of this starter kit.
 
 ## License
