@@ -42,27 +42,25 @@ To improve access to nutritious food in local communities (especially those suff
 
 ![Digital Co-Operative Management System](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/architecture_diagram.png)
 
-## Flow
-
-1. User uses their non-smartphone camera to capture a photo of their product yield for quality testing and analysis.
-2. User sends a camera image and/or a text message through their non-smartphone messenger.
-3. The image and/or message is redirected to the Twilio MMS Messaging service or to the Telstra MMS Messaging service for users located in Australia.
-4. Twilio MMS Messaging or Telstra MMS Messaging will forward the message to the Node-RED app hosted on IBM Cloud.
-5. The Node-RED app interacts with IBM Cloud Pak for Data AI/ML service to get the response.
-6. Cloud Object Storage is provisioned to receive the images and/or message data.
-7. The image and/or message data is added to the available Cloud Object Storage.
-8. IBM Cloud Pak for Data AI/ML service does the necessary computations and returns a response.
-9. The Node-RED app processes the response and converts it to user-readable format and forwards to the digital co-operative management system app UI. (Optional: to Twilio or Telstra)
-10. The response is then sent to the digital co-operative management system UI.
-11. The Co-op Admin is able to view the response via the digital co-operative management system UI.
-12. (Optional: Twilio or Telstra forwards the response message as a reply to the User through their messaging apis)
-13. (Optional: The user will receive this as a response from IBM Cloud Pak for Data AI/ML service on their phone's messenger)
+1. The user uses their non-smart phone camera to capture a photo of their product yield to send for quality testing and analysis.
+1. The user sends a camera image or a text message through their non-smart phone messenger.
+1. The image or message is redirected to the Twilio Programmable Messaging service or to the Telstra Messaging service for users located in Australia.
+1. Twilio MMS Messaging or Telstra MMS Messaging forwards the message to the Node-RED app hosted on IBM Cloud.
+1. The Node-RED app interacts with IBM Cloud Pak for Data AI/ML service to get the response.
+1. IBM Cloud Object Storage is provisioned to receive the images or message data.
+1. The image or message data is added to the available IBM Cloud Object Storage.
+1. The IBM Cloud Pak for Data AI/ML service runs the necessary computations and returns a response.
+1. The Node-RED app processes the response, converts it to a user-readable format, and forwards it to the digital co-operative management system app UI (Optional: to Twilio or Telstra).
+1. The response is sent to the digital co-operative management system UI.
+1. The co-op administrator is able to view the response through the digital co-operative management system UI.
+1. Twilio or Telstra forwards the response message as a reply to the user through their messaging apis. (Optional)
+1. The user receives this as a response from the IBM Cloud Pak for Data AI/ML service on their phone's messenger. (Optional)
 
 ## Getting started
 
 You can create a solution based on the proposed solution architecture by exploring the following resources on [IBM Developer](https://developer.ibm.com/).
 
-### Tutorial & Walkthrough
+### Tutorial and walkthrough
 
 TBD
 [API Documentation Links](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/README.md#api-integration-documentation)
@@ -79,7 +77,7 @@ Each of these example solutions follows the Who/What/How format:
 - To achieve this result ("wow!")
 ```
 
-#### Solution idea: Image Sharing
+#### Solution idea: Image sharing
 
 Farmers use non-smartphones to communicate
 
@@ -89,15 +87,13 @@ Farmers use non-smartphones to communicate
 - in order to optimize productivity by 30% through knowledge sharing.
 ```
 
-TBD TBD
+#### Additional solution ideas
 
-#### Additional solution ideas:
-
-* [Accounting & Credits](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-accounting--credits)
-* [Weather Data](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-weather-data)
-* [Optimize Trips](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-optimize-trips)
-* [Choose Crops](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-choose-crops)
-* [Increase Prices](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-increase-prices)
+* [Accounting and credits](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-accounting--credits)
+* [Weather data](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-weather-data)
+* [Optimize trips](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-optimize-trips)
+* [Choose crops](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-choose-crops)
+* [Increase prices](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/solution_ideas.md#solution-idea-increase-prices)
 
 ### Resources
 
@@ -164,10 +160,9 @@ Please read about [contributing](CONTRIBUTING.md) to this repository for details
 
 ## Authors
 
-* Michelle Howie
-* Jenna Ritten
-* David Nugent
-
+* [Michelle Howie](https://www.linkedin.com/in/michelle-howie-a98358b2/)
+* [Jenna Ritten](https://developer.ibm.com/profiles/jritten/)
+* [Dave Nugent](https://developer.ibm.com/profiles/drnugent/)
 Additionally, see the list of [contributors](https://github.com/Call-for-Code/Starter-Kit-Template-2021/graphs/contributors) who participated in the creation of this starter kit.
 
 ## License
