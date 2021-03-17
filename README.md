@@ -62,8 +62,11 @@ You can create a solution based on the proposed solution architecture by explori
 
 ### Tutorial and walkthrough
 
-TBD
-[API Documentation Links](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/README.md#api-integration-documentation)
+This starter kit is built using Node-RED, an interactive visual programming environment that allows developers and non-developers to build complex applications from simple building blocks. 
+
+In order to get you up to speed, we have created a [step-by-step tutorial](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/tree/master/lab) that walks you through the process of setting up a Node-RED instance on IBM Cloud. By the end of the lab, you'll have a Node-RED environment with a number of data flows that you can combine to build whatever solution your team decides to tackle.
+
+[Click here to proceed to the lab](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/tree/master/lab).
 
 ### Solution ideas
 
