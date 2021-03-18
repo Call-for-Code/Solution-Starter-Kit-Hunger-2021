@@ -14,7 +14,7 @@ Each of our solution ideas is presented in the following format:
 
 ## Solution idea: Image sharing
 
-Farmers use non-smartphones to communicate and create a database of information that can be used to analyze trends.
+Farmers use non-smartphone devices to communicate in order for co-operatives to create a database of information that can be used to analyze trends.
 
 ```diff
 ! A co-operative
