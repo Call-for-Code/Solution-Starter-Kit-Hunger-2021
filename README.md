@@ -82,7 +82,7 @@ Each of these example solutions follows the Who/What/How format:
 
 #### Solution idea: Image sharing
 
-Farmers use non-smartphones to communicate
+Farmers use non-smartphones devices to communicate. Co-operatives have limited access to technology, but they don't have the ability to aggregate and analyze data from their farmers.
 
 ```diff
 ! A co-operative
