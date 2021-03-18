@@ -80,7 +80,7 @@ Your account automatically gives you access to the Free Trial, which provides an
 
 Here is an example node-red flow that allows you to get an OAuth token, provision your mobile number, and add in the destination numbers you wish to send to (aka B-Nums).
 
-![Telstra Flow](images/NodeRed Flow 1 - Prov & B-Num.png)
+![Telstra Flow](images/NodeRed-Flow-1-Prov-&-B-Num.png)
 
 This node-red flow sends a message from the number provisioned above that uses a message body created in another part of your node red flow.
 
