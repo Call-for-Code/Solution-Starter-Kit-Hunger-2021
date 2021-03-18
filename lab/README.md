@@ -66,11 +66,7 @@ Since local farmers often do not possess smartphones, we anticipate that SMS wil
 
 ## Creating a Telstra SMS integration
 
-![Telstra Flow](images/telstra-1.png)
-
 When addressing the Australian market, an integration with Telstra can facilitate communication with local stakeholders. This section will cover our example Telstra Node-RED flow.
-
-*TBD: Telstra flow walkthrough*
 
 1. [Register for your TelstraDev account here](https://dev.telstra.com/tdev/user/register). This will require you to create a Telstra ID, if you don't already have one.
 Your account automatically gives you access to the Free Trial, which provides an Australian Virtual Mobile Number to send your first 100 messages to up to 5 recipients. If you would like the paid account with full features, please proceed to ['Create a Company'](https://dev.telstra.com/company-add) (For Australian ABN holders only).
@@ -79,8 +75,14 @@ Your account automatically gives you access to the Free Trial, which provides an
 4. Get an OAuth2 token with the API keys. Each set of API keys will provide you a Virtual Mobile Number to send and receive messages with the API.
 5. Use GET/Subscription to provision an Australian virtual mobile number. You will need one of these to send or receive messages via SMS or MMS. [Check the TelstraDev docs for details](https://dev.telstra.com/content/messaging-api#operation/createSubscription)
 6. If you are using the Free Trial, you will need to register the 5 destination mobile numbers (known as `bnum`'s) that you will be able to send test messages to. [Check the TelstraDev docs for details](https://dev.telstra.com/content/messaging-api#operation/freeTrialBnumRegister)
-7. To send an SMS, make a POST call to the `https://tapi.telstra.com/v2/messages/sms` endpoint with the destination number as `to` and message body as `body`.
+7. In a seperate flow, put together the desired message payload. e.g images, iot triggers, text responses.
+8. To send an SMS, make a POST call to the `https://tapi.telstra.com/v2/messages/sms` endpoint with the destination number as `to` and message payload in step 7 as `body`.
 
+Here is an example node-red flow that allows you to get an OAuth token, provision your mobile number, and add in the destination numbers you wish to send to (aka B-Nums).
+![Telstra Flow](NodeRed Flow 1 - Prov & B-Num.JPG)
+
+This node-red flow sends a message from the number provisioned above that uses a message body created in another part of your node red flow
+![Telstra Flow](NodeRed Flow 4 - Send SMS.JPG)
 
 To see this in action with previous Node-Red and IoT integrations, check out these repos: [Control your IoT device remotely via SMS](https://github.com/MichelleHowie/TelstraDevArduinoNodeRedBlink) 
 
