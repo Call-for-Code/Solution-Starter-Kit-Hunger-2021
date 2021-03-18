@@ -41,7 +41,6 @@ In order to get you familiar with this starter kit and creating services on IBM 
 Further reading:
 * [How to Create a Node-RED Starter Application on IBM Cloud](https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red-starter-application/)
 
-
 ## Integrate a Cloudant Database
 
 In the last step, we created a Cloudant databae in order to store our Node-RED application. While we are only able to create one Cloudant database on our IBM Cloud Lite tier, we can store information other than our Node-RED application in the same database.
@@ -80,13 +79,11 @@ Your account automatically gives you access to the Free Trial, which provides an
 
 Here is an example node-red flow that allows you to get an OAuth token, provision your mobile number, and add in the destination numbers you wish to send to (aka B-Nums).
 
-![Telstra Flow](images/NodeRed Flow 1 - Prov & B-Num.JPG)
+![Telstra Flow](images/NodeRed-Flow-1-Prov-&-B-Num.png)
 
 This node-red flow sends a message from the number provisioned above that uses a message body created in another part of your node red flow.
 
-![Telstra Flow](images/NodeRed Flow 4 - Send SMS.JPG)
-
-
+![Telstra Flow](images/NodeRed-Flow-4-Send-SMS.png)
 
 ### Further reading:
 * [Telstra Messaging API documentation](https://dev.telstra.com/content/messaging-api)
@@ -108,9 +105,7 @@ The Weather Company is an IBM business that provides a number o
 
 ![The Weather Company Flow](images/twc-1.png)
 
-
 *TBD: Dashboard explanation*
-
 
 ## Additional Resources
 * [API Documentation Links](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/README.md#api-integration-documentation)
