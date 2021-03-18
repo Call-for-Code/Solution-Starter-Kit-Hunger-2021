@@ -73,9 +73,16 @@ When addressing the Australian market, an integration with Telstra can facilitat
 *TBD: Telstra flow walkthrough*
 
 1. [Register for your TelstraDev account here](https://dev.telstra.com/tdev/user/register). This will require you to create a Telstra ID, if you don't already have one.
-![Telstra Registration](images/telstra-2.png)
-2. Check your email and click on the link in the Telstra verification email.
-3. Enter your phone number (including country code) and request a one-time verification token. When you receive the code, enter it to proceed to the Telstra Developer Dashboard.
+Your account automatically gives you access to the Free Trial, which provides an Australian Virtual Mobile Number to send your first 100 messages to up to 5 recipients. If you would like the paid account with full features, please proceed to ['Create a Company'](https://dev.telstra.com/company-add) (For Australian ABN holders only).
+2. Once you have verified your account, you will be able to access your apps & keys under Develop-> [My Apps & Keys](https://dev.telstra.com/user/me/apps)
+3. You may leverage the [Messaging API SDKs in GitHub](https://github.com/telstra) for multiple programming languages, or download our [Postman Collection](https://dev.telstra.com/content/messaging-api#section/Getting-Started/Run-in-Postman)
+4. Get an OAuth2 token with the API keys. Each set of API keys will provide you a Virtual Mobile Number to send and receive messages with the API.
+5. Use GET/Subscription to provision an Australian virtual mobile number. You will need one of these to send or receive messages via SMS or MMS. [Check the TelstraDev docs for details](https://dev.telstra.com/content/messaging-api#operation/createSubscription)
+6. If you are using the Free Trial, you will need to register the 5 destination mobile numbers (known as `bnum`'s) that you will be able to send test messages to. [Check the TelstraDev docs for details](https://dev.telstra.com/content/messaging-api#operation/freeTrialBnumRegister)
+7. To send an SMS, make a POST call to the `https://tapi.telstra.com/v2/messages/sms` endpoint with the destination number as `to` and message body as `body`.
+
+
+To see this in action with previous Node-Red and IoT integrations, check out these repos: [Control your IoT device remotely via SMS](https://github.com/MichelleHowie/TelstraDevArduinoNodeRedBlink) 
 
 ### Further reading:
 * [Telstra Messaging API documentation](https://dev.telstra.com/content/messaging-api)
