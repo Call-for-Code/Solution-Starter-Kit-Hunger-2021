@@ -26,7 +26,7 @@ To implement this solution, you can use the SMS gateway integration provided by 
 
 ## Solution idea: Accounting and credits
 
-Farmers work with co-operatives to get credit for their goods.
+Farmers work with co-operatives to buy and sell goods using credits and don't have a effective way of accepting or processing payments.
 
 ```diff
 ! A co-operative
@@ -46,7 +46,7 @@ Co-operatives can aggregate and distribute data to their farmers in order to imp
 - to increase the farmer’s yield by ~25%.
 ```
 
-To implment this solution, you can use the starter kit to integrate with The Weather Company's data to track weather patterns and use the SMS gateway to communicate to farmers when to plant. There is a Weather Channel Notification API that can be used to notify farmers of adverse conditions. If needed, your app can use a Cloudant database to store data. You can use machine learning to analyze trends from weather data specific to your area.
+To implement this solution, you can use the starter kit to integrate with The Weather Company's data to track weather patterns and use the SMS gateway to communicate to farmers when to plant. There is a Weather Channel Notification API that can be used to notify farmers of adverse conditions. If needed, your app can use a Cloudant database to store data. You can use machine learning to analyze trends from weather data specific to your area.
 
 ## Solution idea: Optimize trips
 
@@ -62,7 +62,7 @@ Implementing this application using our starter kit, you can begin with an SMS g
 
 ## Solution idea: Choose crops
 
-TBD TBD
+Co-operatives can aggregate and distribute data to their farmers in order to improve yields.
 
 ```diff
 ! A co-operative
@@ -70,11 +70,11 @@ TBD TBD
 - to decrease exposure to income loss and volatility by ~30%.
 ```
 
-Technologies needed TBD
+To implement this solution, you can use the starter kit to integrate with The Weather Company's data to track weather patterns and use the SMS gateway to provide recommendations to farmers on which crops would grow best in their region and climate. Your app would use a Cloudant database to store the data, you would use machine learning to analyze trends from weather data, and data on crop variation datasets and soil data projections, to provide recommendations for optimal product yields.
 
 ## Solution idea: Increase Prices
 
-TBD TBD
+Farmers work with co-operatives to facilitate the buying and selling of their goods collectively.
 
 ```diff
 ! A co-operative
@@ -82,4 +82,4 @@ TBD TBD
 - to maximize profit by ~20–40%.
 ```
 
-Technologies needed TBD
+To implement this solution, you can use the SMS gateway integration provided by the starter kit to provide real-time messaging between farmers and cooperatives. You could create an API to gain access to buyers and markets by geolocation and use machine learning analyze the data to allow co-operatives to access local insights to determine competitive pricing and gain access to the market.  As a stretch goal, you might find and aggregate real-time price and market data, and optionally, integrate a distributed ledger, such as blockchain, to track transactions.
