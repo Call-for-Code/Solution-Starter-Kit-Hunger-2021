@@ -86,10 +86,14 @@ This node-red flow sends a message from the number provisioned above that uses a
 
 ![Telstra Flow](images/NodeRed Flow 4 - Send SMS.JPG)
 
-To see this in action with previous Node-Red and IoT integrations, check out these repos: [Control your IoT device remotely via SMS](https://github.com/MichelleHowie/TelstraDevArduinoNodeRedBlink) 
+
 
 ### Further reading:
 * [Telstra Messaging API documentation](https://dev.telstra.com/content/messaging-api)
+To see this in action with previous Node-Red and IoT integrations, check out these repos: 
+* [Control your IoT device remotely via SMS](https://github.com/MichelleHowie/TelstraDevArduinoNodeRedBlink) 
+* [Ask for IoT environmental sensor info via SMS](https://github.com/MichelleHowie/IoTSensorData_OnDemand)
+* [Send automatic SMS alert when your IoT device is dropped](https://github.com/MichelleHowie/Arduino-MKR-IMU-Fall-Detect)
 * [Example Flow: A Node-RED flow to send SMS messages via the Telstra Messaging API](https://github.com/brendan-myers/node-red-contrib-telstra-messaging)
 
 ## Integrating with the Weather Company
