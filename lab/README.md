@@ -1,12 +1,14 @@
 In order to get you familiar with this starter kit and creating services on IBM Cloud, this lab will walk you through the steps of setting up a sample application.
 
+In addition to this README, the starter kit includes [a lab to get started with your own Node-RED instance](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/tree/master/lab) and a [JSON file of example integrations](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/zero-hunger-node-red-flows.json).
+
 ## Table of Contents
 * [Create your IBM Cloud Account](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/README.md#create-your-ibm-cloud-account)
 * [Create a Node Red Instance](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/README.md#create-a-node-red-instance)
 * [Integreate a Cloudant Database](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/README.md#integrate-a-cloudant-database)
 * [Creating your Twilio SMS integration](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/README.md#creating-your-twilio-sms-integration)
 * [Creating a Telstra SMS integration](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/README.md#creating-a-telstra-sms-integration)
-* [Integreating with the Weather Company](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/README.md#integrating-with-the-weather-company)
+* [Integrating with Open Weather Map](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/README.md#integrating-with-open-weather-map)
 * [Creating a Dashboard Visualization](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/README.md#creating-a-dashboard-visualization)
 * [Additional Resources](#creating-a-dashboard-visualization)
 
@@ -93,9 +95,9 @@ To see this in action with previous Node-Red and IoT integrations, check out the
 * [Send automatic SMS alert when your IoT device is dropped](https://github.com/MichelleHowie/Arduino-MKR-IMU-Fall-Detect)
 * [Example Flow: A Node-RED flow to send SMS messages via the Telstra Messaging API](https://github.com/brendan-myers/node-red-contrib-telstra-messaging)
 
-## Integrating with the Weather Company
+## Integrating with Open Weather Map
 
-![The Weather Company Flow](images/twc-1.png)
+![Open Weather Map Flow](images/owm-1.png)
 
 *TBD: Waiting on keys*
 
@@ -103,7 +105,7 @@ The Weather Company is an IBM business that provides a number o
 
 ## Creating a Dashboard Visualization
 
-![The Weather Company Flow](images/twc-1.png)
+![Dashboard Flow](images/dashboard-1.png)
 
 *TBD: Dashboard explanation*
 
