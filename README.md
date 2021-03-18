@@ -104,7 +104,7 @@ Use the following resources to help you identify a topic and create your own sol
 
 #### Tutorials
 
-* [Combating global hunger with the Node-RED starter kit](need link)
+* [Combating global hunger with the Node-RED starter kit](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/tree/master/lab)
 * [Create serverless functions to send push notifications](https://developer.ibm.com/patterns/serverless-functions-push-notifications/)
 
 #### Node-RED
