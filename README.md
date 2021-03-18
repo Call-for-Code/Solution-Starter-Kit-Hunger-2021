@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack)
 
-According to the [UN Hunger Report](http://www.fao.org/publications/sofi/en/), hunger is when people are experiencing severe food insecurity — meaning that they go for entire days without eating due to lack of money, lack of access to food, or other resources, and that the number of people affected by hunger globally has been slowly rising since 2014. Use this starter kit to build applications to address the real-world challenge of global hunger. The starter kit provides tools and resources from our experts to help you jump-start your own solution.
+Hunger is a global issue, where millions of people around the world have insufficient acces to adequate food. According to the [UN Hunger Report](http://www.fao.org/publications/sofi/en/), the number of people globall who are are experiencing severe food insecurity — meaning that they go for entire days without eating due to lack of money, lack of access to food, or other resources, has been slowly rising since 2014. Use this starter kit to build applications to address the real-world challenge of global hunger by enabling independant farmers. The starter kit provides tools and resources from our experts to help you jump-start your own solution.
 
 ## Contents
 
@@ -18,7 +18,7 @@ According to the [UN Hunger Report](http://www.fao.org/publications/sofi/en/), h
 
 ## Short description
 
-This starter kit can help you begin your Call for Code solution. The starter kit pulls together resources to help you and your team use technology to create applications to tackle hunger issues around the world.
+The starter kit pulls together resources to help you and your team use technology to create applications to tackle hunger issues around the world and begin your Call for Code solution.
 
 ### What's the problem?
 
@@ -136,6 +136,7 @@ Analyze structured and unstructured data to extract knowledge and insights relat
 Collect and analyze device sensor data to take corrective or preventive action automatically.
 
 * [Build your first IoT application with Twilio](https://developer.ibm.com/tutorials/iot-monitoring-app-node-red-bluemix-trs/)
+* [Control your IoT device via SMS with Node-Red and IBM Watson](https://github.com/MichelleHowie/TelstraDevArduinoNodeRedBlink)
 * [Build a cognitive IoT app in just 7 steps](https://developer.ibm.com/technologies/artificial-intelligence/tutorials/iot-cognitive-iot-app-machine-learning)
 * [Create an Internet of Things Platform starter application](https://developer.ibm.com/tutorials/how-to-create-an-internet-of-things-platform-starter-application/)
 * [Turn your smartphone into an IoT device](https://developer.ibm.com/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/)
