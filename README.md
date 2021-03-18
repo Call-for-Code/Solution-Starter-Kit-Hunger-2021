@@ -165,6 +165,7 @@ Please read about [contributing](CONTRIBUTING.md) to this repository for details
 ## Authors
 
 * [Michelle Howie](https://www.linkedin.com/in/michelle-howie-a98358b2/)
+* [DeveloperSteve](https://github.com/developersteve/)
 * [Jenna Ritten](https://developer.ibm.com/profiles/jritten/)
 * [Dave Nugent](https://developer.ibm.com/profiles/drnugent/)
 
