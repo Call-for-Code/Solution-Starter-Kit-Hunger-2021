@@ -58,7 +58,7 @@ Co-operatives can help farmers decrease their fuel costs, which can decrease mai
 - to lower transport costs by ~50%.
 ```
 
-Implementing this application using our starter kit, you can begin with an SMS gateway communication with farmers, coupled with weather data to inform them of the best time to harvest. In addition, you can choose your own geolocation and trip routing integrations for vehicle pathfinding.
+To implement this solution using our starter kit, you can use the SMS gateway to communicate with farmers, coupled with weather data to inform them of the best time to harvest. In addition, you can choose your own geolocation and trip routing integrations for vehicle pathfinding.
 
 ## Solution idea: Choose crops
 
