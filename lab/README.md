@@ -66,19 +66,34 @@ Since local farmers often do not possess smartphones, we anticipate that SMS wil
 
 ## Creating a Telstra SMS integration
 
-![Telstra Flow](images/telstra-1.png)
-
 When addressing the Australian market, an integration with Telstra can facilitate communication with local stakeholders. This section will cover our example Telstra Node-RED flow.
 
-*TBD: Telstra flow walkthrough*
-
 1. [Register for your TelstraDev account here](https://dev.telstra.com/tdev/user/register). This will require you to create a Telstra ID, if you don't already have one.
-![Telstra Registration](images/telstra-2.png)
-2. Check your email and click on the link in the Telstra verification email.
-3. Enter your phone number (including country code) and request a one-time verification token. When you receive the code, enter it to proceed to the Telstra Developer Dashboard.
+Your account automatically gives you access to the Free Trial, which provides an Australian Virtual Mobile Number to send your first 100 messages to up to 5 recipients. If you would like the paid account with full features, please proceed to ['Create a Company'](https://dev.telstra.com/company-add) (For Australian ABN holders only).
+2. Once you have verified your account, you will be able to access your apps & keys under Develop-> [My Apps & Keys](https://dev.telstra.com/user/me/apps)
+3. You may leverage the [Messaging API SDKs in GitHub](https://github.com/telstra) for multiple programming languages, or download our [Postman Collection](https://dev.telstra.com/content/messaging-api#section/Getting-Started/Run-in-Postman)
+4. Get an OAuth2 token with the API keys. Each set of API keys will provide you a Virtual Mobile Number to send and receive messages with the API.
+5. Use GET/Subscription to provision an Australian virtual mobile number. You will need one of these to send or receive messages via SMS or MMS. [Check the TelstraDev docs for details](https://dev.telstra.com/content/messaging-api#operation/createSubscription)
+6. If you are using the Free Trial, you will need to register the 5 destination mobile numbers (known as `bnum`'s) that you will be able to send test messages to. [Check the TelstraDev docs for details](https://dev.telstra.com/content/messaging-api#operation/freeTrialBnumRegister)
+7. In a seperate flow, put together the desired message payload. e.g images, iot triggers, text responses.
+8. To send an SMS, make a POST call to the `https://tapi.telstra.com/v2/messages/sms` endpoint with the destination number as `to` and message payload in step 7 as `body`.
+
+Here is an example node-red flow that allows you to get an OAuth token, provision your mobile number, and add in the destination numbers you wish to send to (aka B-Nums).
+
+![Telstra Flow](images/NodeRed Flow 1 - Prov & B-Num.JPG)
+
+This node-red flow sends a message from the number provisioned above that uses a message body created in another part of your node red flow.
+
+![Telstra Flow](images/NodeRed Flow 4 - Send SMS.JPG)
+
+
 
 ### Further reading:
 * [Telstra Messaging API documentation](https://dev.telstra.com/content/messaging-api)
+To see this in action with previous Node-Red and IoT integrations, check out these repos: 
+* [Control your IoT device remotely via SMS](https://github.com/MichelleHowie/TelstraDevArduinoNodeRedBlink) 
+* [Ask for IoT environmental sensor info via SMS](https://github.com/MichelleHowie/IoTSensorData_OnDemand)
+* [Send automatic SMS alert when your IoT device is dropped](https://github.com/MichelleHowie/Arduino-MKR-IMU-Fall-Detect)
 * [Example Flow: A Node-RED flow to send SMS messages via the Telstra Messaging API](https://github.com/brendan-myers/node-red-contrib-telstra-messaging)
 
 ## Integrating with the Weather Company
