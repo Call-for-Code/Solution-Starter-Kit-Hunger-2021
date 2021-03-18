@@ -79,9 +79,11 @@ Your account automatically gives you access to the Free Trial, which provides an
 8. To send an SMS, make a POST call to the `https://tapi.telstra.com/v2/messages/sms` endpoint with the destination number as `to` and message payload in step 7 as `body`.
 
 Here is an example node-red flow that allows you to get an OAuth token, provision your mobile number, and add in the destination numbers you wish to send to (aka B-Nums).
+
 ![Telstra Flow](NodeRed Flow 1 - Prov & B-Num.JPG)
 
-This node-red flow sends a message from the number provisioned above that uses a message body created in another part of your node red flow
+This node-red flow sends a message from the number provisioned above that uses a message body created in another part of your node red flow.
+
 ![Telstra Flow](NodeRed Flow 4 - Send SMS.JPG)
 
 To see this in action with previous Node-Red and IoT integrations, check out these repos: [Control your IoT device remotely via SMS](https://github.com/MichelleHowie/TelstraDevArduinoNodeRedBlink) 
