@@ -36,7 +36,7 @@ To improve access to nutritious food in local communities (especially those suff
 
 ## Video
 
-[![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](images/cfc_hunger_screenshot.png)](https://youtu.be/e4zZ-U1Qvp4https://www.youtube.com/watch?v=CZ3wIuvmHeM)
 
 ## The architecture
 
