@@ -36,7 +36,7 @@ To improve access to nutritious food in local communities (especially those suff
 
 ## Video
 
-[![Watch the video](images/cfc_hunger_screenshot.png)](https://youtu.be/e4zZ-U1Qvp4https://www.youtube.com/watch?v=CZ3wIuvmHeM)
+[![Watch the video](images/cfc_hunger_screenshot.png)](https://youtu.be/e4zZ-U1Qvp4)
 
 ## The architecture
 
