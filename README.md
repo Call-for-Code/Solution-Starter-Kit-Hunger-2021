@@ -169,6 +169,10 @@ Please read about [contributing](CONTRIBUTING.md) to this repository for details
 * [Jenna Ritten](https://developer.ibm.com/profiles/jritten/)
 * [Dave Nugent](https://developer.ibm.com/profiles/drnugent/)
 
+<a href="https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Solution-Starter-Kit-Hunger-2021" />
+</a>
+
 ## License
 
 This starter kit is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
