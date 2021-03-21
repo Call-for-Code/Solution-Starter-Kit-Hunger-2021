@@ -169,8 +169,6 @@ Please read about [contributing](CONTRIBUTING.md) to this repository for details
 * [Jenna Ritten](https://developer.ibm.com/profiles/jritten/)
 * [Dave Nugent](https://developer.ibm.com/profiles/drnugent/)
 
-Additionally, see the list of [contributors](https://github.com/Call-for-Code/Starter-Kit-Template-2021/graphs/contributors) who participated in the creation of this starter kit.
-
 ## License
 
 This starter kit is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
