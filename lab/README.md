@@ -61,7 +61,7 @@ Further reading:
 
 Since local farmers often do not possess smartphones, we anticipate that SMS will become a critical component of communications in many Call for Code solutions. To facilitate this, we've created a sample Twilio SMS flow, along with additional resources below.
 
-1. In order to get started, you'll need a Twilio account. [Sign up for Twilio here](www.twilio.com/referral/lup4VV).
+1. In order to get started, you'll need a Twilio account. [Sign up for Twilio here](https://www.twilio.com/referral/lup4VV).
 
 *TBD: Twilio flow walkthrough*
 
