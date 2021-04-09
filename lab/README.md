@@ -30,15 +30,20 @@ In addition to this README, the starter kit includes [a lab to get started with 
 ![Application settings](images/nr-4.png)
 *Note: You can only have one Cloudant instance using the Lite plan. If you have already got an instance, you will be able to select it from the Pricing plan select box. You can have more than one Node-RED Starter application using the same Cloudant service instance.*
 6. After a few moments, your Cloudant database will finish provisioning and will be available for use. At this point, we will be able to create our Node-RED app and store it in the Cloudant database. Click **Deploy your app** to continue.
-![Application settings](images/nr-4.png)
-
-*TBD: CICD Pipeline*
-
-10. Next, we'll load our example code into the Node-RED environment. Since Node-RED stores its configuration as JSON, we can do that by copying and pasting a JSON file. In the top right of your Node-RED environment, click the **triple-line menu** and select **Import**. 
+![Deploy your app](images/nr-5.png)
+7. Select your deployment target as **Cloud Foundry** and click **New +** in order to generate an IBM Cloud API Key. Then, increase the memory allocation to at least 1500MB and click **Next**.
+![Create your cluster](images/nr-6.png)
+8. Click **Create** to continue creating your application.
+![Create your cluster](images/nr-7.png)
+9. Click *Next* in the original windo to proceed with deploying Node-RED onto your cluster.
+![Create your cluster](images/nr-8.png)
+10. Create your CICD Pipeline by clicking **Create**
+![Create CICD Pipeline](images/nr-9.png)
+11. Next, we'll load our example code into the Node-RED environment. Since Node-RED stores its configuration as JSON, we can do that by copying and pasting a JSON file. In the top right of your Node-RED environment, click the **triple-line menu** and select **Import**. 
 ![Settings Menu](images/nr-10.png)
-11. Now, we'll copy the JSON from this starter kit. This JSON is stored in `zero-hunger-node-red-flows.json`. You can access that file [here](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/zero-hunger-node-red-flows.json). **Copy** this json to your computer clipboard, and **Paste** it into the Node-RED import window. Then click **Import**.
+12. Now, we'll copy the JSON from this starter kit. This JSON is stored in `zero-hunger-node-red-flows.json`. You can access that file [here](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/zero-hunger-node-red-flows.json). **Copy** this json to your computer clipboard, and **Paste** it into the Node-RED import window. Then click **Import**.
 ![Import Dialog](images/nr-11.png)
-12. Congratulations! Your Node-RED environment is now populated with a number of flows that will help you create your Call for Code application. In the remainder of this lab, we'll cover flows that we have just imported and explain how they can be used together to create more complex applications.
+13. Congratulations! Your Node-RED environment is now populated with a number of flows that will help you create your Call for Code application. In the remainder of this lab, we'll cover flows that we have just imported and explain how they can be used together to create more complex applications.
 
 Further reading:
 * [How to Create a Node-RED Starter Application on IBM Cloud](https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red-starter-application/)
@@ -48,8 +53,6 @@ Further reading:
 In the last step, we created a Cloudant databae in order to store our Node-RED application. While we are only able to create one Cloudant database on our IBM Cloud Lite tier, we can store information other than our Node-RED application in the same database.
 
 ![Cloudant Database Flow](images/cloudant-1.png)
-
-*TBD: Database flow walkthrough*
 
 Further reading:
 * [Connecting to IBM Cloud services from Node-RED](https://knolleary.net/2018/06/05/connecting-to-ibm-cloud-services-from-node-red/)
@@ -61,9 +64,10 @@ Further reading:
 
 Since local farmers often do not possess smartphones, we anticipate that SMS will become a critical component of communications in many Call for Code solutions. To facilitate this, we've created a sample Twilio SMS flow, along with additional resources below.
 
-1. In order to get started, you'll need a Twilio account. [Sign up for Twilio here](https://www.twilio.com/referral/lup4VV).
+* In order to get started, you'll need a Twilio account. [Sign up for Twilio here](https://www.twilio.com/referral/lup4VV).
 
-*TBD: Twilio flow walkthrough*
+Further reading:
+* [Twilio SMS Webhooks Documentation](https://www.twilio.com/docs/usage/webhooks/sms-webhooks)
 
 ## Creating a Telstra SMS integration
 
@@ -99,15 +103,9 @@ To see this in action with previous Node-Red and IoT integrations, check out the
 
 ![Open Weather Map Flow](images/owm-1.png)
 
-*TBD: Waiting on keys*
-
-The Weather Company is an IBM business that provides a number o 
-
 ## Creating a Dashboard Visualization
 
 ![Dashboard Flow](images/dashboard-1.png)
-
-*TBD: Dashboard explanation*
 
 ## Additional Resources
 * [API Documentation Links](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/README.md#api-integration-documentation)
