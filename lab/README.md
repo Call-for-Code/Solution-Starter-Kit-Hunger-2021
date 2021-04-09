@@ -31,7 +31,7 @@ In addition to this README, the starter kit includes [a lab to get started with 
 *Note: You can only have one Cloudant instance using the Lite plan. If you have already got an instance, you will be able to select it from the Pricing plan select box. You can have more than one Node-RED Starter application using the same Cloudant service instance.*
 6. After a few moments, your Cloudant database will finish provisioning and will be available for use. At this point, we will be able to create our Node-RED app and store it in the Cloudant database. Click **Deploy your app** to continue.
 ![Deploy your app](images/nr-5.png)
-7. Select your deployment target as **Cloud Foundry** and click **New +** in order to generate an IBM Cloud API Key. Then, increase the memory allocation to at least 1500MB and click **Next**.
+7. Select your deployment target as **Cloud Foundry** and click **New +** in order to generate an IBM Cloud API Key. Then, set the memory allocation to **256MB** and click **Next**.
 ![Create your cluster](images/nr-6.png)
 8. Click **Create** to continue creating your application.
 ![Create your cluster](images/nr-7.png)
