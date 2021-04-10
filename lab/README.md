@@ -39,7 +39,13 @@ In addition to this README, the starter kit includes [a lab to get started with 
 ![Create your cluster](images/nr-8.png)
 10. Create your CICD Pipeline by clicking **Create**
 ![Create CICD Pipeline](images/nr-9.png)
-11. Next, we'll load our example code into the Node-RED environment. Since Node-RED stores its configuration as JSON, we can do that by copying and pasting a JSON file. In the top right of your Node-RED environment, click the **triple-line menu** and select **Import**. 
+11. Now, we'll import some necesessary modules into the Node-RED environment. We'll click the **triple-line menu** in the upper right and select **Manage Palette**. Next, we'll click the **Install** tab and make sure we install the following modules:
+  * openweathermap
+  * node-red-dashboard
+  * node-red-contrib-twc-weather
+  * node-red-node-twilio
+  * ui_table
+13. Next, we'll load our example code into the Node-RED environment. Since Node-RED stores its configuration as JSON, we can do that by copying and pasting a JSON file. In the top right of your Node-RED environment, click the **triple-line menu** and select **Import**. 
 ![Settings Menu](images/nr-10.png)
 12. Now, we'll copy the JSON from this starter kit. This JSON is stored in `zero-hunger-node-red-flows.json`. You can access that file [here](https://github.com/Call-for-Code/Solution-Starter-Kit-Hunger-2021/blob/master/lab/zero-hunger-node-red-flows.json). **Copy** this json to your computer clipboard, and **Paste** it into the Node-RED import window. Then click **Import**.
 ![Import Dialog](images/nr-11.png)
