@@ -13,7 +13,7 @@ In addition to this README, the starter kit includes [a lab to get started with 
 * [Additional Resources](#creating-a-dashboard-visualization)
 
 ## Create your IBM Cloud Account
-1. Visit the [IBM Cloud Registration page](https://cloud.ibm.com/registration) and fill out your email and password
+1. Visit the [IBM Cloud Registration page](https://developer.ibm.com/callforcode/get-started/) and fill out your email and password
 2. Check your email for a verification email and click the confirmation link
 3. Once your account has been activated, visit your [IBM Cloud Dashboard](https://cloud.ibm.com/). You can always get back to this location by clicking "IBM Cloud" in the upper left of any page.
 4. To add a service, click the blue "Create" in the upper left corner of the dashboard.
